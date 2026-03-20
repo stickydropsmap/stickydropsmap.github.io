@@ -19,7 +19,7 @@ niebla, rocío y lluvia horizontal — para entender mejor los recursos hídrico
   <div id="obs-loading">⏳ Cargando observaciones…</div>
   <div id="obs-error">
     No se pudieron cargar las observaciones. Por favor,
-    <a href="https://www.inaturalist.org/projects/YOUR_PROJECT_ID" target="_blank" rel="noopener">
+    <a href="https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica" target="_blank" rel="noopener">
       visita el proyecto en iNaturalist
     </a>.
     <!-- ↑ Reemplaza YOUR_PROJECT_ID con tu slug de proyecto iNaturalist -->
@@ -34,7 +34,7 @@ niebla, rocío y lluvia horizontal — para entender mejor los recursos hídrico
   //   Reemplaza YOUR_PROJECT_ID con el slug o ID numérico de tu
   //   proyecto en iNaturalist (p. ej. "sticky-drops-map" o 12345).
   // ══════════════════════════════════════════════════════════════
-  var PROJECT_ID = "YOUR_PROJECT_ID"; // ← CAMBIAR AQUÍ
+  var PROJECT_ID = "mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica"; // ← CAMBIAR AQUÍ
   var MAX_OBS   = 5;
   // ────────────────────────────────────────────────────────────
 
