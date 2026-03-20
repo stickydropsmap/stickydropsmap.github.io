@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca del proyecto
-subtitle: Sticky Drops Map — Universidad de Granada
+subtitle: StickyDropsMap — Universidad de Granada
 ---
 
 ## ¿Qué es Sticky Drops Map?
@@ -46,7 +46,7 @@ están disponibles bajo licencia Creative Commons.
 
 ## Cómo citar el proyecto
 
-> Sticky Drops Map — Proyecto de Ciencia Ciudadana.
+> StickyDropsMap — Proyecto de Ciencia Ciudadana.
 > Universidad de Granada. [https://miguelarrodriguezvalverde.github.io/stickydropsmap.github.io](/)
 
 ---
@@ -55,5 +55,5 @@ están disponibles bajo licencia Creative Commons.
 
 Para más información, colaboraciones o consultas de prensa, visita la página del proyecto en
 <!-- Reemplaza YOUR_PROJECT_ID con tu slug de proyecto iNaturalist -->
-[iNaturalist](https://www.inaturalist.org/projects/YOUR_PROJECT_ID) o escríbenos a través de
+[iNaturalist](https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica) o escríbenos a través de
 la Universidad de Granada.
