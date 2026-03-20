@@ -1,4 +1,31 @@
 <footer class="footer">
+  <div class="container text-center" style="padding: 30px 0;">
+    
+    <div class="logos-footer" style="margin-bottom: 20px; display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap;">
+
+      <img src="/assets/img/logo-aljibe.png" alt="SUPERFICIES BIOINSPIRADAS PARA RECOLECCIÓN DE AGUA ATMOSFÉRICA" style="height: 50px; filter: grayscale(100%); opacity: 0.8; transition: 0.3s;" onmouseover="this.style.filter='none'; this.style.opacity='1'" onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.8'">
+
+      <img src="/assets/img/logo-lsip.png" alt="Laboratorio de Física de Superficies e Intefases" style="height: 50px; filter: grayscale(100%); opacity: 0.8; transition: 0.3s;" onmouseover="this.style.filter='none'; this.style.opacity='1'" onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.8'">
+
+      <img src="/assets/img/logo-ugr.png" alt="Universidad de Granada" style="height: 50px; filter: grayscale(100%); opacity: 0.8; transition: 0.3s;" onmouseover="this.style.filter='none'; this.style.opacity='1'" onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.8'">
+      
+      <img src="/assets/img/logo.png" alt="StickyDropsMap" style="height: 50px; filter: grayscale(100%); opacity: 0.8; transition: 0.3s;" onmouseover="this.style.filter='none'; this.style.opacity='1'" onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.8'">
+
+      </div>
+
+    <div class="social-icons" style="margin-bottom: 15px;">
+      {% include social-networks-links.html %}
+    </div>
+
+    <p style="color: #666; font-size: 0.9em;">
+      © {{ site.time | date: '%Y' }} <strong>StickyDropsMap</strong> — {{ site.author }}
+    </p>
+    
+  </div>
+</footer>
+
+
+<footer class="footer">
   <div class="container text-center">
     <div class="social-icons">
       {% include social-networks-links.html %}
