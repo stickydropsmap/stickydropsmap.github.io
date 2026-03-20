@@ -1,0 +1,50 @@
+# Site settings
+title: Sticky Drops Map
+description: >
+  Mapa de superficies vegetales con alta captación de agua atmosférica.
+  Proyecto de Ciencia Ciudadana — Universidad de Granada.
+author: Universidad de Granada
+
+# Remote theme (Beautiful Jekyll)
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
+# URL settings
+baseurl: ""
+url: "https://miguelarrodriguezvalverde.github.io"
+
+# Navigation links (shown in the top menu)
+navbar-links:
+  Home: ""
+  Participate: "participate"
+  About: "about"
+
+# Optional social links shown in footer
+social-network-links:
+  github: MiguelARodriguezValverde
+
+# Site colours (Beautiful Jekyll v5+)
+navbar-col: "#2e7d32"
+navbar-text-col: "#ffffff"
+navbar-hover-col: "#1b5e20"
+page-col: "#ffffff"
+link-col: "#2e7d32"
+hover-col: "#1b5e20"
+footer-col: "#f8f9fa"
+footer-text-col: "#555555"
+footer-link-col: "#2e7d32"
+
+# Footer text
+footer-extra-content: >
+  Proyecto de Ciencia Ciudadana — Universidad de Granada
+
+# Markdown extras
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins (GitHub Pages safe)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
