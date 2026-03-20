@@ -1,6 +1,6 @@
 # Site settings
 #title: StickyDropsMap
-title: "<img src='/assets/img/logo.png' style='height:30px; margin-right:10px;'> StickyDropsMap"
+title: "<img src='/assets/img/logo.png' style='height:35px; margin-right:10px; vertical-align:middle;'> StickyDropsMap"
 description: >
   Mapa de superficies vegetales con alta captación de agua atmosférica -
   Proyecto de Ciencia Ciudadana
