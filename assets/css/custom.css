@@ -2,19 +2,24 @@
    Custom styles for Sticky Drops Map
    ========================================================= */
 
-/* ------- Navbar title fix (EVITA LAS MÚLTIPLES LÍNEAS) ------- */
+/* ------- Navbar title fix (LOGO MÁS GRANDE) ------- */
 .navbar-brand {
   display: flex !important;
   align-items: center !important;
-  white-space: nowrap !important; /* Fuerza una sola línea */
-  overflow: visible !important;
+  white-space: nowrap !important; 
+  padding: 5px 0 !important; /* Añade un poco de aire arriba y abajo */
 }
 
 .navbar-brand img {
-  height: 35px !important; /* Altura controlada */
+  height: 60px !important; /* HEMOS SUBIDO DE 35px A 60px */
   width: auto !important;
-  margin-right: 12px !important;
-  flex-shrink: 0; /* Impide que el logo se aplaste */
+  margin-right: 15px !important;
+  flex-shrink: 0;
+  transition: transform 0.3s ease; /* Un toque elegante al pasar el ratón */
+}
+
+.navbar-brand:hover img {
+  transform: scale(1.05); /* Se agranda un pelín al pasar el ratón */
 }
 
 /* ------- iNaturalist observations grid ------- */
