@@ -2,6 +2,21 @@
    Custom styles for Sticky Drops Map
    ========================================================= */
 
+/* ------- Navbar title fix (EVITA LAS MÚLTIPLES LÍNEAS) ------- */
+.navbar-brand {
+  display: flex !important;
+  align-items: center !important;
+  white-space: nowrap !important; /* Fuerza una sola línea */
+  overflow: visible !important;
+}
+
+.navbar-brand img {
+  height: 35px !important; /* Altura controlada */
+  width: auto !important;
+  margin-right: 12px !important;
+  flex-shrink: 0; /* Impide que el logo se aplaste */
+}
+
 /* ------- iNaturalist observations grid ------- */
 #inaturalist-section {
   margin: 2rem 0;
