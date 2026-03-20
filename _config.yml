@@ -6,6 +6,7 @@ description: >
   Proyecto de Ciencia Ciudadana
 logo: "/assets/img/logo.png"
 #avatar: "/assets/img/logo.png"
+favicon-img: "/assets/img/favicon.ico?v=1"
 author: Universidad de Granada
 
 # Remote theme (Beautiful Jekyll)
