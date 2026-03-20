@@ -1,8 +1,8 @@
 ---
 layout: home
 title: StickyDropsMap
-subtitle: Mapa de superficies vegetales<br> con alta captación de agua atmosférica
-cover-img: /assets/img/hero.jpg
+subtitle: Mapa de superficies vegetales"<br>"con alta captación de agua atmosférica
+bigimg: /assets/img/hero.jpg
 ---
 
 Bienvenido al proyecto de ciencia ciudadana **Sticky Drops Map** de la Universidad de Granada.
