@@ -1,8 +1,8 @@
-show-avatar: false
 ---
 layout: page
 title: Cómo participar
 subtitle: Únete al proyecto de ciencia ciudadana
+show-avatar: false
 ---
 
 ¡Gracias por tu interés en **StickyDropsMap**! Con unos pocos pasos puedes contribuir datos
