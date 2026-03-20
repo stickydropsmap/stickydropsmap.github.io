@@ -41,8 +41,7 @@ footer-text-col: "#555555"
 footer-link-col: "#2e7d32"
 
 # Footer text
-footer-extra-content: >
-  Proyecto de Ciencia Ciudadana — Universidad de Granada
+footer-extra-content: ""
 
 # Markdown extras
 markdown: kramdown
