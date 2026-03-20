@@ -4,9 +4,9 @@ title: Acerca del proyecto
 subtitle: StickyDropsMap — Universidad de Granada
 ---
 
-## ¿Qué es Sticky Drops Map?
+## ¿Qué es StickyDropsMap?
 
-**Sticky Drops Map** es un proyecto de ciencia ciudadana impulsado por la
+**StickyDropsMap** es un proyecto de ciencia ciudadana impulsado por la
 [Universidad de Granada](https://www.ugr.es) cuyo objetivo es cartografiar las superficies vegetales
 y artificiales con alta capacidad de captación de agua atmosférica en ecosistemas ibéricos y del
 Mediterráneo occidental.
