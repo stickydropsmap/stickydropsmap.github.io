@@ -15,9 +15,9 @@ url: "https://stickydropsmap.github.io"
 
 # Navigation links (shown in the top menu)
 navbar-links:
-  Home: ""
-  Colaborador: "participate"
-  Sobre: "about"
+  Home: "/"
+  Colaborador: "/participate"
+  Sobre: "/about"
 
 # Optional social links shown in footer
 social-network-links:
