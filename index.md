@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Mapa de superficies vegetales con alta captación de agua atmosférica
-subtitle: [StickyDropsMap]
+title: Mapa de superficies vegetales 
+subtitle: con alta captación de agua atmosférica
 cover-img: /assets/img/hero.jpg
 ---
 
