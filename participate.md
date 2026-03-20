@@ -1,3 +1,4 @@
+show-avatar: false
 ---
 layout: page
 title: Cómo participar
