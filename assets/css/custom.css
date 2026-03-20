@@ -2,6 +2,10 @@
    Custom styles for Sticky Drops Map
    ========================================================= */
 
+body {
+  padding-top: 110px !important; /* Ajusta este número si ves que el título queda muy pegado a la barra */
+}
+
 /* --- Estilo para la CABECERA (Navbar) --- */
 .navbar-custom {
   background-color: #2e7d32 !important; /* Asegura el verde UGR */
