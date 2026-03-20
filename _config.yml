@@ -11,7 +11,7 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 
 # URL settings
 baseurl: ""
-url: "https://miguelarrodriguezvalverde.github.io"
+url: "https://stickydropsmap.github.io"
 
 # Navigation links (shown in the top menu)
 navbar-links:
