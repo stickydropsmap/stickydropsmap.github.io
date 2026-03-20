@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cómo participar
+title: ¿Cómo participar?
 subtitle: Únete al proyecto de ciencia ciudadana
 show-avatar: false
 ---
