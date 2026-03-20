@@ -4,7 +4,7 @@ title: Cómo participar
 subtitle: Únete al proyecto de ciencia ciudadana
 ---
 
-¡Gracias por tu interés en **Sticky Drops Map**! Con unos pocos pasos puedes contribuir datos
+¡Gracias por tu interés en **StickyDropsMap**! Con unos pocos pasos puedes contribuir datos
 valiosos a la investigación sobre captación de agua atmosférica.
 
 ---
@@ -24,7 +24,7 @@ Es gratuita y está disponible como:
 
 ### 2. Únete al proyecto
 
-Busca el proyecto **"Sticky Drops Map"** en iNaturalist o accede directamente a través del enlace
+Busca el proyecto **"StickyDropsMap"** en iNaturalist o accede directamente a través del enlace
 que tu coordinador te ha proporcionado.
 
 ---
