@@ -3,7 +3,7 @@ title: Sticky Drops Map
 description: >
   Mapa de superficies vegetales con alta captación de agua atmosférica -
   Proyecto de Ciencia Ciudadana
-logo: /assets/img/logo.png
+logo: "/assets/img/logo.png"
 avatar: "/assets/img/logo.png"
 author: Universidad de Granada
 
