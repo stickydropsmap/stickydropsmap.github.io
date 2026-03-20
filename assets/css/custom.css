@@ -6,6 +6,13 @@ body {
   padding-top: 110px !important; /* Ajusta este número si ves que el título queda muy pegado a la barra */
 }
 
+.intro-header .page-heading .page-subheading {
+  display: block !important;
+  line-height: 1.5 !important;
+  margin-top: 15px !important;
+  font-weight: 300 !important;
+}
+
 /* --- Estilo para la CABECERA (Navbar) --- */
 .navbar-custom {
   background-color: #2e7d32 !important; /* Asegura el verde UGR */
