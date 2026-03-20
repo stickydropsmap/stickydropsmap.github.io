@@ -15,13 +15,16 @@ url: "https://stickydropsmap.github.io"
 
 # Navigation links (shown in the top menu)
 navbar-links:
-  Home: "/"
-  Colaborador: "/participate"
-  Sobre: "/about"
+  Inicio: "/"
+  ¡Participa!: "/participate"
+  ¿Qué es StickDropsMap?: "/about"
 
 # Optional social links shown in footer
 social-network-links:
-  github: MiguelARodriguezValverde
+  email: "marodri@ugr.es"
+  instagram: "lsip_ugr"
+  twitter: "lsip_ugr"
+  #github: MiguelARodriguezValverde
 
 # Site colours (Beautiful Jekyll v5+)
 navbar-col: "#2e7d32"
