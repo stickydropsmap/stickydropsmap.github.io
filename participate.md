@@ -33,7 +33,7 @@ que tu coordinador te ha proporcionado.
 ### 3. Encuentra una planta o superficie captadora
 
 Busca plantas, musgos, líquenes u otras superficies que acumulen gotas de agua visibles
-(niebla, rocío, lluvia horizontal). Algunos ejemplos:
+(niebla, rocío). Algunos ejemplos:
 
 | Tipo de superficie | Ejemplos |
 |--------------------|----------|
@@ -71,18 +71,18 @@ Para que el proyecto **StickyDropsMap** sea un éxito, necesitamos encontrar pla
 * **Tu Smartphone** (será nuestro inclinómetro de precisión).
 * **App de medición:** Recomendamos **Phyphox** (usa la herramienta "Inclinación") o cualquier app de **Clinómetro** o "Nivel de burbuja".
 * **Almohadilla de Nano-Gel** (Cinta antideslizante lavable, de las que se usan en el coche).
-* **Muestra vegetal:** Un trozo de hoja o pétalo seco.
-* **Agua y un cuentagotas** (o una jeringuilla pequeña).
+* **Muestra vegetal:** Un trozo de hoja o pétalo fresco.
+* **Agua y un cuentagotas** (o una pipeta graduada).
 
 ---
 
 ## 🛠️ Instrucciones Paso a Paso:
 
 **Paso 1: Preparación de la base**
-Pega la almohadilla de nano-gel en la parte trasera de tu móvil (o sobre la pantalla bloqueada si prefieres ver la app de frente). Coloca tu muestra de hoja plana sobre el gel y presiona suavemente. ¡El gel la mantendrá fija sin dañarla!
+Pega la almohadilla de nano-gel sobre la pantalla bloqueada (con la app abierta). Coloca tu muestra de hoja plana sobre el gel y presiona suavemente. ¡El gel la mantendrá fija sin dañarla!
 
 **Paso 2: La Gota de Prueba**
-Coloca el móvil sobre una mesa (totalmente horizontal, a 0º). Con el cuentagotas, deposita con cuidado una gota de agua sobre la hoja.
+Coloca el móvil sobre una mesa (totalmente horizontal, a 0º). Con el cuentagotas, deposita con cuidado una gota de agua sobre la hoja. Si quieres aumentar el volumen, deposita varias gotas. Anota el número de gotas utilizadas.
 
 **Paso 3: La Medición**
 Abre la app de Inclinómetro en tu móvil. Empieza a levantar lentamente el móvil por un extremo, inclinándolo poco a poco. Observa la gota de agua con atención y mira los grados en la pantalla.
