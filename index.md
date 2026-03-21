@@ -5,9 +5,9 @@ layout: home
 cover-img: /assets/img/hero.jpg
 ---
 
-Bienvenido al proyecto de ciencia ciudadana **Sticky Drops Map** de la Universidad de Granada.
+Bienvenido al proyecto de ciencia ciudadana **StickyDropsMap** de la Universidad de Granada.
 Ayúdanos a cartografiar las plantas y superficies capaces de capturar agua atmosférica — como
-niebla, rocío y lluvia horizontal — para entender mejor los recursos hídricos de nuestros ecosistemas.
+niebla y rocío — para entender mejor los recursos hídricos de nuestros ecosistemas.
 
 <a class="btn-participate" href="/participate/">¿Cómo puedo participar?</a>
 
