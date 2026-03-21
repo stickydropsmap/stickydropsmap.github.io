@@ -69,9 +69,9 @@ Para que el proyecto **StickyDropsMap** sea un éxito, necesitamos encontrar pla
 
 ## 🎒 Materiales necesarios:
 * **Tu Smartphone** (será nuestro inclinómetro de precisión).
-* **App de medición:** Recomendamos **Phyphox** (usa la herramienta "Inclinación") o cualquier app de **Clinómetro** o "Nivel de burbuja".
+* **App de medición:** Recomendamos **Phyphox** (usa la herramienta "Inclinación").
 * **Almohadilla de Nano-Gel** (Cinta antideslizante lavable, de las que se usan en el coche).
-* **Muestra vegetal:** Un trozo de hoja o pétalo fresco.
+* **Muestra vegetal:** Un trozo de hoja o pétalo **frescos**.
 * **Agua y un cuentagotas** (o una pipeta graduada).
 
 ---
@@ -79,18 +79,19 @@ Para que el proyecto **StickyDropsMap** sea un éxito, necesitamos encontrar pla
 ## 🛠️ Instrucciones Paso a Paso:
 
 **Paso 1: Preparación de la base**
-Pega la almohadilla de nano-gel sobre la pantalla bloqueada (con la app abierta). Coloca tu muestra de hoja plana sobre el gel y presiona suavemente. ¡El gel la mantendrá fija sin dañarla!
+Abre la app de Inclinómetro en tu móvil, lista para medir. Bloque la pantalla. Pega la almohadilla de nano-gel sobre la pantalla bloqueada, pero en la parte inferior. Coloca tu muestra de hoja plana sobre el gel y presiona suavemente. ¡El gel la mantendrá fija sin dañarla! ¡No toques la superficie de la hoja!
 
-**Paso 2: La Gota de Prueba**
-Coloca el móvil sobre una mesa (totalmente horizontal, a 0º). Con el cuentagotas, deposita con cuidado una gota de agua sobre la hoja. Si quieres aumentar el volumen, deposita varias gotas. Anota el número de gotas utilizadas.
+**Paso 2: Depositado de la gota**
+Coloca el móvil sobre una mesa (totalmente horizontal, a 0º). Con el cuentagotas, deposita con cuidado una gota de agua sobre la hoja. Para aumentar el volumen, deposita varias gotas. Anota siempre el número de gotas utilizadas en cada medida.
 
-**Paso 3: La Medición**
-Abre la app de Inclinómetro en tu móvil. Empieza a levantar lentamente el móvil por un extremo, inclinándolo poco a poco. Observa la gota de agua con atención y mira los grados en la pantalla.
+**Paso 3: Inclinación**
+Empieza a levantar lentamente el móvil por un extremo, inclinándolo poco a poco. Observa la gota de agua con atención y mira los grados en la pantalla.
 
-**Paso 4: El Momento Clave**
-Detén la inclinación justo en el instante en que la gota **empiece a resbalar** por la hoja. ¡Anota ese ángulo máximo!
+**Paso 4: Deslizamiento de la gota**
+Detén la inclinación justo en el instante en que la gota **empiece a resbalar** por la hoja. ¡Anota ese ángulo máximo! Recuerda anotar el número de gotas que has utilizado para formar la gota posada sobre la hoja.
 
-
+**Paso 5: Repetición**
+Usando otra muestra de la misma hoja o pétalo, repetir los pasos anteriores al menos dos veces.
 
 ---
 
