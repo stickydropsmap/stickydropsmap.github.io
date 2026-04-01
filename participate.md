@@ -110,6 +110,4 @@ Usando otra muestra de la misma hoja o pétalo, repetir los pasos anteriores al 
 
 ## ¿Preguntas?
 
-Consulta la sección [Acerca del proyecto](/about/) o escríbenos a través de la página del
-<!-- Reemplaza YOUR_PROJECT_ID con tu slug de proyecto iNaturalist -->
-[proyecto en iNaturalist](https://www.inaturalist.org/projects/YOUR_PROJECT_ID).
+Consulta la sección [Acerca del proyecto](/about/) o escríbenos a través de https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica.
