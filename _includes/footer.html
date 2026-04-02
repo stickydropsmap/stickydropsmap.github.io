@@ -16,38 +16,8 @@
 </div>
     
     <div class="social-icons" style="margin-bottom: 15px;">
-      <button type="button" class="email-icon-btn" onclick="emailModalOpen()" aria-label="Mostrar dirección de contacto">
-        <i class="fas fa-envelope"></i>
-      </button>
-      {% if site['social-network-links'].instagram %}
-      <a href="https://www.instagram.com/{{ site['social-network-links'].instagram }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link-icon"><i class="fab fa-instagram"></i></a>
-      {% endif %}
-      {% if site['social-network-links'].twitter %}
-      <a href="https://twitter.com/{{ site['social-network-links'].twitter }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X" class="social-link-icon"><i class="fab fa-x-twitter"></i></a>
-      {% endif %}
+      {% include social-networks-links.html %}
     </div>
-
-    <!-- Email modal: the address lives only as pixels in a PNG, never as DOM text -->
-    <div id="email-modal" class="email-modal" role="dialog" aria-modal="true" aria-label="Dirección de correo electrónico" onclick="if(event.target===this)emailModalClose()">
-      <div class="email-modal__box">
-        <button type="button" class="email-modal__close" onclick="emailModalClose()" aria-label="Cerrar">&#x2715;</button>
-        <p class="email-modal__label">Contacto</p>
-        <img src="{{ '/assets/img/email-contact.png' | relative_url }}" alt="Dirección de correo electrónico de contacto" class="email-modal__img">
-      </div>
-    </div>
-    <script>
-      function emailModalOpen() {
-        var m = document.getElementById('email-modal');
-        m.classList.add('email-modal--open');
-        document.addEventListener('keydown', emailModalEsc);
-      }
-      function emailModalClose() {
-        var m = document.getElementById('email-modal');
-        m.classList.remove('email-modal--open');
-        document.removeEventListener('keydown', emailModalEsc);
-      }
-      function emailModalEsc(e) { if (e.key === 'Escape') emailModalClose(); }
-    </script>
 
     <p style="color: #666; font-size: 0.9em;">
       © {{ site.time | date: '%Y' }} <strong>StickyDropsMap</strong> — {{ site.author }}
