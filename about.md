@@ -21,16 +21,14 @@ Gracias a la participación ciudadana podemos:
 
 - 🌱 Identificar especies vegetales con mayor potencial captador de agua.
 - 🌍 Localizar hábitats con mayor tendencia al rocío o niebla.
-- 💧 Imitar el comportamiento de las superficies vegetales captadoradas con ingeniería de superficies.
+- 💧 Imitar con ingeniería de superficies el comportamiento de las superficies vegetales captadoras.
 - 📊 Publicar datos abiertos para la comunidad científica internacional.
 
 ---
 
 ## El equipo
 
-¿Quieres conocer a las personas que hay detrás de StickyDropsMap? Descubre al equipo de investigación que hace posible este proyecto.
-
-<a href="/equipo">Conoce al equipo</a>
+¿Quieres conocer a las personas que hay detrás de StickyDropsMap? Descubre al <a href="/equipo">equipo de investigación</a> que hace posible este proyecto.
 
 ---
 
