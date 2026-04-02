@@ -15,7 +15,7 @@ Aquí tienes una selección de recursos, guías e instituciones vinculadas al es
     <h4 class="list-group-item-heading">🏛️ Ayuntamiento de Granada - Medio Ambiente</h4>
     <p class="list-group-item-text">Información sobre las zonas verdes, parques, jardines y la gestión ambiental de la ciudad.</p>
   </a>
-  <a href="https://wastemagazine.es/" target="_blank" class="list-group-item">
+  <a href="https://wastemagazine.es/primeraplantas.htm" target="_blank" class="list-group-item">
     <h4 class="list-group-item-heading">📖 Waste Magazine</h4>
     <p class="list-group-item-text">Revista online especializada en naturaleza, medio ambiente y ciencia, con un extenso inventario de flora ibérica.</p>
   </a>
