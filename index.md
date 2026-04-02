@@ -12,7 +12,7 @@ niebla y rocío — para entender mejor los recursos hídricos de nuestros ecosi
 <a class="btn-participate" href="/participate/">¿Cómo puedo participar?</a>
 
 <div style="margin: 3rem 0; width: 100%;">
-  <iframe src="https://www.google.com/maps/d/edit?mid=1Ctys8roNKIREFzWwKuwVfj9vsDHdW3A&usp=sharing" width="100%" height="500" style="border:0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/d/embed?mid=1Ctys8roNKIREFzWwKuwVfj9vsDHdW3A&ehbc=2E312F" width="100%" height="500" style="border:0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
 ---
