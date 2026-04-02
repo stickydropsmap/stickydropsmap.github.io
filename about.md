@@ -30,9 +30,9 @@ Gracias a la participación ciudadana podemos:
 
 ## El equipo
 
-El proyecto está coordinado por investigadoras e investigadores del
-Departamento de Botánica de la Universidad de Granada, en colaboración con entidades de
-conservación del medio natural.
+¿Quieres conocer a las personas que hay detrás de StickyDropsMap? Descubre al equipo de investigación que hace posible este proyecto.
+
+<a href="/equipo" class="btn btn-primary">Conoce al equipo</a>
 
 ---
 
