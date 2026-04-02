@@ -36,7 +36,7 @@ Conoce a las personas que hacen posible StickyDropsMap, un grupo apasionado por 
     <p>Especialista en etnobotánica. Contacta con redes y colectivos de interés.</p>
   </div>
 
-    <div class="col-md-4 text-center">
+  <div class="col-md-4 text-center">
     <img src="/assets/img/team/investigador2.jpg" class="img-circle" alt="Investigador 2" style="width:150px; height:150px; object-fit:cover;">
     <h3>Sergio Parra Vicente</h3>
     <p><em>Esudiante de doctorado de Física Aplicada</em></p>
