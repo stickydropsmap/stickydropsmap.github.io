@@ -7,9 +7,9 @@ subtitle: Recursos relacionados con la botánica y el medio ambiente
 Aquí tienes una selección de recursos, guías e instituciones vinculadas al estudio y conservación de la flora en nuestro entorno:
 
 <div class="list-group" style="margin-top: 30px;">
-  <a href="https://jardinbotanico.ugr.es/" target="_blank" class="list-group-item">
-    <h4 class="list-group-item-heading">🌿 Jardín Botánico de la Universidad de Granada (UGR)</h4>
-    <p class="list-group-item-text">Información sobre las colecciones, investigación y actividades del jardín histórico de la universidad.</p>
+  <a href="https://viceinfrasos.ugr.es/unidades/unidad-tecnica/inventario-especies-vegetales/" target="_blank" class="list-group-item">
+    <h4 class="list-group-item-heading">🌿 Inventario de Especies Vegetales de la Universidad de Granada (UGR)</h4>
+    <p class="list-group-item-text">Inventario de las especies vegetales en los espacios y zonas ajardinadas de la Universidad de Granada.</p>
   </a>
   <a href="https://www.granada.org/" target="_blank" class="list-group-item">
     <h4 class="list-group-item-heading">🏛️ Ayuntamiento de Granada - Medio Ambiente</h4>
