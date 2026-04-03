@@ -27,4 +27,12 @@ Aquí tienes una selección de recursos, guías e instituciones vinculadas al es
     <h4 class="list-group-item-heading">🏔️ Jardín Botánico Hoya de Pedraza</h4>
     <p class="list-group-item-text">Centro dedicado a la representación y conservación de la flora amenazada y endémica del macizo de Sierra Nevada.</p>
   </a>
+  <a href="https://naturesraincoats.com/adaptation-of-plants-to-water/" target="_blank" class="list-group-item">
+    <h4 class="list-group-item-heading">☔ Nature’s Raincoats</h4>
+    <p class="list-group-item-text">Adaptation of plants to water.</p>
+  </a>
+    <a href="https://asknature.org/strategy/petals-self-clean-without-being-slippery/" target="_blank" class="list-group-item">
+    <h4 class="list-group-item-heading">💡🌱 Ask to Nature</h4>
+    <p class="list-group-item-text">Petals Self-Clean Without Being Slippery.</p>
+  </a>
 </div>
