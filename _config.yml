@@ -20,9 +20,10 @@ url: "https://stickydropsmap.github.io"
 navbar-links:
   Inicio: "/"
   Equipo: "/equipo"
+  Enlaces: "/enlaces"
+  ¡Enséñame!: "/ensenanza"
   ¿Qué es StickyDropsMap?: "/about"
   ¡Participa!: "/participate"
-  Enlaces: "/enlaces"
 
 # Optional social links shown in footer
 social-network-links:
