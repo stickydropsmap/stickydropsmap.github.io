@@ -31,8 +31,20 @@ Aquí tienes una selección de recursos, guías e instituciones vinculadas al es
     <h4 class="list-group-item-heading">☔ Nature’s Raincoats</h4>
     <p class="list-group-item-text">Adaptation of plants to water.</p>
   </a>
-    <a href="https://asknature.org/strategy/petals-self-clean-without-being-slippery/" target="_blank" class="list-group-item">
+    <a href="https://asknature.org/strategy/surface-allows-self-cleaning/" target="_blank" class="list-group-item">
+    <h4 class="list-group-item-heading">💡🌱 Ask to Nature</h4>
+    <p class="list-group-item-text">Surface Allows Self-Cleaning.</p>
+  </a>
+     <a href="https://asknature.org/strategy/petals-self-clean-without-being-slippery/" target="_blank" class="list-group-item">
     <h4 class="list-group-item-heading">💡🌱 Ask to Nature</h4>
     <p class="list-group-item-text">Petals Self-Clean Without Being Slippery.</p>
+  </a>
+     <a href="https://asknature.org/strategy/leaves-channel-dew-as-water-source/" target="_blank" class="list-group-item">
+    <h4 class="list-group-item-heading">💡🌱 Ask to Nature</h4>
+    <p class="list-group-item-text">Leaves Channel Dew As Water Source.</p>
+  </a>
+    <a href="https://asknature.org/strategy/young-leaves-channel-water/" target="_blank" class="list-group-item">
+    <h4 class="list-group-item-heading">💡🌱 Ask to Nature</h4>
+    <p class="list-group-item-text">Young Leaves Channel Water.</p>
   </a>
 </div>
