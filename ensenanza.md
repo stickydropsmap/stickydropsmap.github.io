@@ -13,10 +13,10 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
     <p>No todas las hojas se mojan igual. Dependiendo de la estructura microscópica de la superficie y su composición química, una gota de agua puede extenderse (superficie hidrófila), o ser redondeada y quedar adherida (hidrófoba retenedora) o bien rodar (repelente). En <strong>StickyDropsMap</strong> buscamos superficies "pegajosas" que sean capaces de retener gotas sin que se caigan.</p>
 
     <div style="margin-top: 25px;">
-      <img src="/assets/img/ensenanza/mojabilidad2.png" alt="Ilustración de la mojabilidad" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto;">
+      <img src="/assets/img/ensenanza/mojabilidad2.png" alt="Mojabilidad" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto;">
     </div>
         <div style="margin-top: 25px;">
-      <img src="/assets/img/ensenanza/mojadosextremos.png" alt="Ilustración de gotas de agua sobre superficies de interés" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto;">
+      <img src="/assets/img/ensenanza/mojadosextremos.png" alt="Comportamiento de gotas de agua sobre superficies de interés" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto;">
     </div>
   </div>
 
@@ -30,10 +30,10 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
     <p>Durante la noche, las superficies vegetales se enfrían. Si la humedad del aire es alta, el vapor de agua invisible pasa a estado líquido formando el rocío. Además, en zonas de niebla, las estructuras de las hojas y tallos actúan como redes naturales que atrapan las minúsculas gotas suspendidas en el aire.</p>
   </div>
   <div class="col-md-4 text-center" style="margin-bottom: 20px;">
-    <img src="/assets/img/ensenanza/condensacion.jpg" alt="Ilustración de condensación" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
+    <img src="/assets/img/ensenanza/condensacion.jpg" alt="Condensación de agua. Efectos de borde" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
   </div>
    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
-    <img src="/assets/img/ensenanza/condensacion_gravedad" alt="Ilustración de rocío" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
+    <img src="/assets/img/ensenanza/condensacion_gravedad" alt="Gotas de rocío vespertino bajo el efecto de la gravedad" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
   </div>
 </div>
 
