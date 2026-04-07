@@ -33,7 +33,7 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
     <img src="/assets/img/ensenanza/condensacion.jpg" alt="Condensación de agua. Efectos de borde" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
   </div>
    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
-    <img src="/assets/img/ensenanza/condensacion_gravedad" alt="Gotas de rocío vespertino bajo el efecto de la gravedad" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
+    <img src="/assets/img/ensenanza/condensacion_gravedad.jpg" alt="Gotas de rocío vespertino bajo el efecto de la gravedad" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
   </div>
 </div>
 
