@@ -25,15 +25,14 @@ Es gratuita y está disponible como:
 
 ### 2. Únete al proyecto
 
-Busca el proyecto **"StickyDropsMap"** en iNaturalist o accede directamente a través del enlace
-que tu coordinador te ha proporcionado.
+Busca el proyecto **"StickyDropsMap"** en iNaturalist o accede directamente a través del [enlace](https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica)
 
 ---
 
 ### 3. Encuentra una planta o superficie captadora
 
 Busca plantas, musgos, líquenes u otras superficies que acumulen gotas de agua visibles
-(niebla, rocío). Algunos ejemplos:
+(niebla, rocío, lluvia). Algunos ejemplos:
 
 | Tipo de superficie | Ejemplos |
 |--------------------|----------|
@@ -41,11 +40,13 @@ Busca plantas, musgos, líquenes u otras superficies que acumulen gotas de agua 
 | Criptógamas | Musgos, líquenes |
 | Superficies artificiales | Malla de niebla, red colectora |
 
+Si no sabes por dónde empezar, visita los lugares indicados en nuestro [mapa](https://www.google.com/maps/d/embed?mid=1Ctys8roNKIREFzWwKuwVfj9vsDHdW3A&ehbc=2E312F) de Granada.
+
 ---
 
 ### 4. Registra tu observación
 
-Cuando encuentres una superficie captadora, registra:
+Cuando encuentres una superficie vegetal captadora de agua, registra:
 
 1. **Foto** — Toma al menos una foto clara que muestre las gotas.
 2. **Ubicación** — Permite que la app utilice tu GPS, o marca el punto en el mapa.
@@ -57,7 +58,7 @@ Cuando encuentres una superficie captadora, registra:
 ### 5. Envía tu observación
 
 Una vez completados los datos, pulsa **Enviar**. Tu observación quedará disponible para el
-equipo de investigación y aparecerá en el mapa del proyecto.
+equipo de investigación, que la incluirá en el mapa del proyecto.
 
 ---
 
@@ -108,6 +109,6 @@ Usando otra muestra de la misma hoja o pétalo, repetir los pasos anteriores al 
 
 
 
-## ¿Preguntas?
+## Preguntas frecuentes
 
-Consulta la sección [Acerca del proyecto](/about/) o escríbenos a través de https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica.
+Consulta la sección [Acerca del proyecto](/about/).
