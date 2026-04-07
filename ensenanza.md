@@ -10,10 +10,13 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
   
   <div class="col-md-12">
     <h3>💧 1. Fenómenos de mojado</h3>
-    <p>No todas las hojas se mojan igual. Dependiendo de la estructura microscópica de la superficie y su composición química, una gota de agua puede extenderse (superficie hidrófila), o ser redondeada y quedar adherida (hidrófoba retenedora) o bien rodar (repelente). En <strong>stickyDROPSmap</strong> buscamos superficies "pegajosas" que sean capaces de retener gotas sin que se caigan.</p>
+    <p>No todas las hojas se mojan igual. Dependiendo de la estructura microscópica de la superficie y su composición química, una gota de agua puede extenderse (superficie hidrófila), o ser redondeada y quedar adherida (hidrófoba retenedora) o bien rodar (repelente). En <strong>StickyDropsMap</strong> buscamos superficies "pegajosas" que sean capaces de retener gotas sin que se caigan.</p>
 
     <div style="margin-top: 25px;">
       <img src="/assets/img/ensenanza/mojabilidad2.png" alt="Ilustración de fenómenos de mojado" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto;">
+    </div>
+        <div style="margin-top: 25px;">
+      <img src="/assets/img/ensenanza/mojadosextremos.png" alt="Ilustración de fenómenos de mojado" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto;">
     </div>
   </div>
 
