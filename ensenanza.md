@@ -45,3 +45,5 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
     <p>Las plantas han evolucionado durante millones de años para sobrevivir en climas secos. Utilizan pequeños "pelillos" llamados tricomas y finas capas de ceras epicuticulares. Estas estructuras no solo las protegen de la radiación solar, sino que son maravillas de la microingeniería diseñadas para atrapar y dirigir el agua hacia sus raíces.</p>
   </div>
 </div>
+
+<p>Si quieres profundizar en este tema, lee <a href="https://digibug.ugr.es/handle/10481/92141" target="_blank"><em>Understanding the petal effect: Wetting properties and surface structure of natural rose petals and rose petal-derived surfaces</em></a>.</p>
