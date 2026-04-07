@@ -8,7 +8,7 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
 
 <div class="row" style="margin-top: 40px; margin-bottom: 40px; display: flex; align-items: center; flex-wrap: wrap;">
   <div class="col-md-4 text-center" style="margin-bottom: 20px;">
-    <img src="/assets/img/ensenanza/mojabilidad.jpg" alt="Ilustración de fenómenos de mojado" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
+    <img src="/assets/img/ensenanza/mojabilidad2.png" alt="Ilustración de fenómenos de mojado" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
   </div>
   <div class="col-md-8">
     <h3>💧 1. Fenómenos de mojado (Wettability)</h3>
