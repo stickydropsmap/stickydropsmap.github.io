@@ -11,6 +11,8 @@ niebla y rocío — para entender mejor los recursos hídricos de nuestros ecosi
 
 <a class="btn-participate" href="/participate/">¿Cómo puedo participar?</a>
 
+<img src="/assets/img/portada.jpg" alt="Concepto de StickyDropsMap" style="display: block; margin-top: 15px; max-width: 100%;">
+
 <div style="margin: 3rem 0; width: 100%;">
   <iframe src="https://www.google.com/maps/d/embed?mid=1Ctys8roNKIREFzWwKuwVfj9vsDHdW3A&ehbc=2E312F" width="100%" height="500" style="border:0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy"></iframe>
 </div>
