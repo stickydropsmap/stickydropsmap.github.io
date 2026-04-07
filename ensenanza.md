@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ¡Enséñame!
+title: Ciencia
 subtitle: La ciencia detrás de StickyDropsMap
 ---
 
