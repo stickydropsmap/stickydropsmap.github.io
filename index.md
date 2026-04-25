@@ -27,7 +27,7 @@ niebla y rocío — para entender mejor los recursos hídricos de nuestros ecosi
 
 <div id="inaturalist-section">
   <div id="obs-loading">⏳ Cargando observaciones…</div>
-  <div id="obs-error">
+  <div id="obs-error" style="display: none;">
     No se pudieron cargar las observaciones. Por favor,
     <a href="https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica" target="_blank" rel="noopener">
       visita el proyecto en iNaturalist
@@ -120,6 +120,8 @@ niebla y rocío — para entender mejor los recursos hídricos de nuestros ecosi
     })
     .then(function (data) {
       loading.style.display = "none";
+      errBox.style.display = "none"; // ✨ AÑADE ESTA LÍNEA AQUÍ
+      
       var results = data.results || [];
       if (results.length === 0) {
         errBox.style.display = "block";
