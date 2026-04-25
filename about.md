@@ -47,7 +47,8 @@ Los datos son abiertos y estarán disponibles bajo licencia Creative Commons.
 
 ## Cómo citar el proyecto
 
-StickyDropsMap: mapa de superficies vegetales con alta captación de agua atmosférica. Proyecto de Ciencia Ciudadana. Medialab-Universidad de Granada.
+[![Licencia Creative Commons](https://licensebuttons.net/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+**StickyDropsMap:** mapa de superficies vegetales con alta captación de agua atmosférica. Proyecto de Ciencia Ciudadana. Medialab-Universidad de Granada.
 
 ---
 
