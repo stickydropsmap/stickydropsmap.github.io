@@ -41,14 +41,13 @@ Las observaciones se recogen de dos maneras:
 una plataforma de ciencia ciudadana reconocida internacionalmente.
 - A través del canal de [telegram](https://t.me/stickyDROPSmap_UGR).
 
-Los datos son abiertos y estarán disponibles bajo licencia Creative Commons.
+Los datos son abiertos y estarán disponibles bajo licencia Creative Commons [![Licencia Creative Commons](https://licensebuttons.net/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/).
 
 ---
 
 ## Cómo citar el proyecto
 
-[![Licencia Creative Commons](https://licensebuttons.net/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-**StickyDropsMap:** mapa de superficies vegetales con alta captación de agua atmosférica. Proyecto de Ciencia Ciudadana. Medialab-Universidad de Granada.
+StickyDropsMap: mapa de superficies vegetales con alta captación de agua atmosférica. Proyecto de Ciencia Ciudadana. Medialab-Universidad de Granada.
 
 ---
 
