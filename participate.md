@@ -60,6 +60,11 @@ Cuando encuentres una superficie vegetal captadora de agua, registra:
 Una vez completados los datos, pulsa **Enviar**. Tu observación quedará disponible para el
 equipo de investigación, que la incluirá en el mapa del proyecto.
 
+### 6. Rellenar el formulario
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+  <img src="/assets/img/QR.png" alt="Código QR para participar en StickyDropsMap" width="200" style="border-radius: 8px;" />
+</div>
 ---
 
 # 🔬 Práctica de Ciencia Ciudadana: El Laboratorio en tu Bolsillo
