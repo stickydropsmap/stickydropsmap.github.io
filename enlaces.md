@@ -6,7 +6,7 @@ subtitle: Recursos relacionados con la botánica y el medio ambiente
 
 Aquí tienes una selección de recursos, guías e instituciones vinculadas al estudio y conservación de la flora en nuestro entorno:
 
-<iframe width="100%" height="315" src="[https://www.youtube.com/embed/TU_ID_AQUI](https://youtu.be/0uguQLo3480)" title="Efecto loto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0uguQLo3480?si=uRormOU03DIOYNPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div class="list-group" style="margin-top: 30px;">
   <a href="https://viceinfrasos.ugr.es/unidades/unidad-tecnica/inventario-especies-vegetales" target="_blank" class="list-group-item">
