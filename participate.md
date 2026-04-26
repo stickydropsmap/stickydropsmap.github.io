@@ -38,7 +38,7 @@ Busca plantas, musgos, líquenes u otras superficies que acumulen gotas de agua 
 
 | Tipo de superficie | Ejemplos |
 |--------------------|----------|
-| Hojas que repelen el agua | Eucalipto |
+| Hojas que repelen el agua | Eucalipto azul|
 | Pétalos que retienen el agua | Rosa blanca|
 | Hojas que retiene el agua | Lirio |
 
