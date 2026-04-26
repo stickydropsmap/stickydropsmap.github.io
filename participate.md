@@ -38,9 +38,9 @@ Busca plantas, musgos, líquenes u otras superficies que acumulen gotas de agua 
 
 | Tipo de superficie | Ejemplos |
 |--------------------|----------|
-| Plantas vasculares | Helecho, lavanda, romero |
-| Criptógamas | Musgos, líquenes |
-| Superficies artificiales | Malla de niebla, red colectora |
+| Hojas que repelen el agua | Eucalipto |
+| Pétalos que retienen el agua | Rosa blanca|
+| Hojas que retiene el agua | Lirio |
 
 Si no sabes por dónde empezar, visita los lugares indicados en nuestro [mapa](https://www.google.com/maps/d/embed?mid=1Ctys8roNKIREFzWwKuwVfj9vsDHdW3A&ehbc=2E312F) de Granada.
 
