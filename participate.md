@@ -40,7 +40,7 @@ Busca plantas, musgos, líquenes u otras superficies que acumulen gotas de agua 
 |--------------------|----------|
 | Hojas que repelen el agua | Eucalipto azul|
 | Pétalos que retienen el agua | Rosa blanca|
-| Hojas que retiene el agua | Lirio |
+| Hojas que retienen el agua | Lirio |
 
 Si no sabes por dónde empezar, visita los lugares indicados en nuestro [mapa](https://www.google.com/maps/d/embed?mid=1Ctys8roNKIREFzWwKuwVfj9vsDHdW3A&ehbc=2E312F) de Granada.
 
