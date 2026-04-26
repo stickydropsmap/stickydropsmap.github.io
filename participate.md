@@ -113,7 +113,7 @@ Usando otra zona de la misma hoja o pétalo, repetir los pasos 2-4 al menos dos 
 * 🧲 **Ángulo alto (Entre 60º y 90º o más): ¡Efecto Pétalo!**
     Puedes inclinar el móvil casi en vertical y la gota sigue ahí, pegada. La superficie es *Parahidrofóbica* (Sticky). **¡Has encontrado exactamente lo que buscamos para StickyDropsMap!**
    <div class="col-md-4 text-center" style="margin-bottom: 20px;">
-    <img src="assets/img/ensenanza/erab479f0001.jpeg" alt="Ilustración de tricomas y adaptaciones" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
+    <img src="/assets/img/ensenanza/erab479f0001.jpeg" alt="Ilustración de tricomas y adaptaciones" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
   </div>
 
 ## 📢 Sube tu descubrimiento
