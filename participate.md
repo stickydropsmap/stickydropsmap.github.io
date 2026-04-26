@@ -112,6 +112,9 @@ Usando otra zona de la misma hoja o pétalo, repetir los pasos 2-4 al menos dos 
 * 💧 **Ángulo bajo (Menos de 20º): ¡Efecto Loto!** El agua resbala casi inmediatamente. La superficie es *Superhidrofóbica* y se autolimpia. Aunque es fascinante, no retiene el agua.
 * 🧲 **Ángulo alto (Entre 60º y 90º o más): ¡Efecto Pétalo!**
     Puedes inclinar el móvil casi en vertical y la gota sigue ahí, pegada. La superficie es *Parahidrofóbica* (Sticky). **¡Has encontrado exactamente lo que buscamos para StickyDropsMap!**
+   <div class="col-md-4 text-center" style="margin-bottom: 20px;">
+    <img src="assets/img/ensenanza/erab479f0001.jpeg" alt="Ilustración de tricomas y adaptaciones" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 250px; margin: 0 auto;">
+  </div>
 
 ## 📢 Sube tu descubrimiento
 ¿Has encontrado una planta "sticky"? Abre **iNaturalist**, sube la foto de la planta, añade la ubicación y, en los comentarios o notas de tu observación, **escribe el ángulo máximo de inclinación que has medido y el volumen de gota necesario para deslizar**. 
