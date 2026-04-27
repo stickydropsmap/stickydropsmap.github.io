@@ -51,4 +51,24 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
   </div>
 </div>
 
+ <div class="col-md-8">
+    <h3>🌿 4. Profundiza</h3>
+  
+  <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <img src="/assets/img/ensenanza/Infografía_EFECTOS_1.svg" alt="¿Qué es el mojado?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 600px;">
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <img src="/assets/img/ensenanza/Infografía_EFECTOS_2.svg" alt="¿Qué es el efecto loto?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 600px;">
+  </div>
+
+    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <img src="/assets/img/ensenanza/Infografía_EFECTOS_3.svg" alt="¿Qué es el efecto pétalo?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 600px;">
+  </div>
+
+    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <img src="/assets/img/ensenanza/Infografía_EFECTOS_4.svg" alt="¿Qué es el efecto hoja de arroz?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 600px;">
+  </div>
+  </div>
+  
 <p>Si quieres profundizar en este tema, lee <a href="https://digibug.ugr.es/handle/10481/92141" target="_blank"><em>Understanding the petal effect: Wetting properties and surface structure of natural rose petals and rose petal-derived surfaces</em></a>.</p>
