@@ -55,25 +55,25 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
     <h3>📚 4. Profundiza</h3>
 
   
-<div style="margin-bottom: 20px;">
+<div style="max-width: 900px; margin: 0 auto 30px auto;">
   <a href="/assets/img/ensenanza/Infografia_EFECTOS_1.svg" target="_blank" rel="noopener">
     <img src="/assets/img/ensenanza/Infografia_EFECTOS_1.svg" alt="¿Qué es el mojado?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; display: block;">
   </a>
 </div>
 
-<div style="margin-bottom: 20px;">
+<div style="max-width: 900px; margin: 0 auto 30px auto;">
   <a href="/assets/img/ensenanza/Infografia_EFECTOS_2.svg" target="_blank" rel="noopener">
     <img src="/assets/img/ensenanza/Infografia_EFECTOS_2.svg" alt="¿Qué es el efecto loto?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; display: block;">
   </a>
 </div>
 
-<div style="margin-bottom: 20px;">
+<div style="max-width: 900px; margin: 0 auto 30px auto;">
   <a href="/assets/img/ensenanza/Infografia_EFECTOS_3.svg" target="_blank" rel="noopener">
     <img src="/assets/img/ensenanza/Infografia_EFECTOS_3.svg" alt="¿Qué es el efecto pétalo?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; display: block;">
   </a>
 </div>
 
-<div style="margin-bottom: 20px;">
+<div style="max-width: 900px; margin: 0 auto 30px auto;">
   <a href="/assets/img/ensenanza/Infografia_EFECTOS_4.svg" target="_blank" rel="noopener">
     <img src="/assets/img/ensenanza/Infografia_EFECTOS_4.svg" alt="¿Qué es el efecto hoja de arroz?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; display: block;">
   </a>
