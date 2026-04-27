@@ -25,6 +25,7 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
 <hr>
 
 <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
+  
   <div class="col-md-12">
     <h3>🌫️ 2. Condensación y captación de rocío</h3>
     <p>Durante la noche, las superficies vegetales se enfrían. Si la humedad del aire es alta, el vapor de agua invisible pasa a estado líquido formando el rocío. Además, en zonas de niebla, las estructuras de las hojas y tallos actúan como redes naturales que atrapan las minúsculas gotas suspendidas en el aire.</p>
@@ -37,6 +38,7 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
   <div class="col-md-6 text-center" style="margin-top: 20px; margin-bottom: 20px;">
     <img src="/assets/img/ensenanza/condensacion_gravedad.jpg" alt="Gotas de rocío vespertino bajo el efecto de la gravedad" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto; margin: 0 auto;">
   </div>
+  
 </div>
 
 <hr>
