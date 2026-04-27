@@ -44,7 +44,7 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
 <div class="row" style="margin-top: 40px; margin-bottom: 40px; display: flex; align-items: center; flex-wrap: wrap;">
   
    <div class="col-md-6 text-center" style="margin-top: 20px; margin-bottom: 20px;">
-    <img src="/assets/img/ensenanza/condensacion.jpg" alt="Microestructura vegetal" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto; margin: 0 auto;">
+    <img src="/assets/img/ensenanza/0726i0.jpg" alt="Microestructura vegetal" class="img-responsive" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; height: auto; margin: 0 auto;">
   </div>
   
   <div class="col-md-6 text-center" style="margin-top: 20px; margin-bottom: 20px;">
