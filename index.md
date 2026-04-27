@@ -9,7 +9,11 @@ Bienvenido al proyecto de ciencia ciudadana **StickyDropsMap** de la Universidad
 Ayúdanos a cartografiar las plantas y superficies capaces de capturar agua atmosférica — como
 niebla y rocío — para entender mejor los recursos hídricos de nuestros ecosistemas.
 
-<a class="btn-participate" href="/participate/">¿Cómo puedo participar?</a>
+<div style="text-align: center; margin: 40px 0;">
+  <a href="/participate/" style="background-color: #2ea44f; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-size: 1.2em; font-weight: bold; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    🙋🏽‍♀️ ¿Cómo puedo participar?
+  </a>
+</div>
 
 <img src="/assets/img/portada.png" alt="Concepto de StickyDropsMap" style="display: block; margin-top: 15px; max-width: 100%;">
 
