@@ -52,11 +52,11 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
 </div>
 
  <div class="col-md-8">
-    <h3>🌿 4. Profundiza</h3>
+    <h3>📚 4. Profundiza</h3>
 
   
   <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="/assets/img/ensenanza/Infografia_EFECTOS_1.svg" alt="¿Qué es el mojado?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 800px;">
+  <img src="/assets/img/ensenanza/Infografia_EFECTOS_1.svg" alt="¿Qué es el mojado?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 1000px;">
   </div>
 
   <div style="display: flex; justify-content: center; margin-bottom: 20px;">
@@ -72,5 +72,25 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
   </div>
   </div>
 
+<div style="max-width: 350px; margin: 30px auto; border: 1px solid #eaeaea; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  
+  <a href="https://digibug.ugr.es/handle/10481/92141" target="_blank" rel="noopener" style="display: block; background-color: #f8f9fa;">
+    <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0927776524000900-ga1_lrg.jpg" alt="Previsualización del documento en Digibug" style="width: 100%; height: auto; border-bottom: 1px solid #eaeaea;" />
+  </a>
+
+  <div style="padding: 20px;">
+    <h3 style="margin: 0 0 10px 0; font-size: 1.1em; color: #333; line-height: 1.3;">
+      Documento del Proyecto
+    </h3>
+    <p style="margin: 0 0 15px 0; font-size: 0.9em; color: #666;">
+      Consulta la publicación oficial en el Repositorio de la Universidad de Granada.
+    </p>
+    
+    <a href="https://digibug.ugr.es/handle/10481/92141" target="_blank" rel="noopener" style="background-color: #d13a36; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">
+      📚 Abrir en Digibug
+    </a>
+  </div>
+
+</div>
   
 <p>Si quieres profundizar en este tema, lee <a href="https://digibug.ugr.es/handle/10481/92141" target="_blank"><em>Understanding the petal effect: Wetting properties and surface structure of natural rose petals and rose petal-derived surfaces</em></a>.</p>
