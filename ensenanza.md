@@ -55,21 +55,30 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
     <h3>📚 4. Profundiza</h3>
 
   
-  <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="/assets/img/ensenanza/Infografia_EFECTOS_1.svg" alt="¿Qué es el mojado?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 1000px;">
-  </div>
+<div style="margin-bottom: 20px;">
+  <a href="/assets/img/ensenanza/Infografia_EFECTOS_1.svg" target="_blank" rel="noopener">
+    <img src="/assets/img/ensenanza/Infografia_EFECTOS_1.svg" alt="¿Qué es el mojado?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; display: block;">
+  </a>
+</div>
 
-  <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="/assets/img/ensenanza/Infografia_EFECTOS_2.svg" alt="¿Qué es el efecto loto?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 800px;">
-  </div>
+<div style="margin-bottom: 20px;">
+  <a href="/assets/img/ensenanza/Infografia_EFECTOS_2.svg" target="_blank" rel="noopener">
+    <img src="/assets/img/ensenanza/Infografia_EFECTOS_2.svg" alt="¿Qué es el efecto loto?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; display: block;">
+  </a>
+</div>
 
-    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="/assets/img/ensenanza/Infografia_EFECTOS_3.svg" alt="¿Qué es el efecto pétalo?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 800px;">
-  </div>
+<div style="margin-bottom: 20px;">
+  <a href="/assets/img/ensenanza/Infografia_EFECTOS_3.svg" target="_blank" rel="noopener">
+    <img src="/assets/img/ensenanza/Infografia_EFECTOS_3.svg" alt="¿Qué es el efecto pétalo?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; display: block;">
+  </a>
+</div>
 
-    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="/assets/img/ensenanza/Infografia_EFECTOS_4.svg" alt="¿Qué es el efecto hoja de arroz?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 800px;">
-  </div>
+<div style="margin-bottom: 20px;">
+  <a href="/assets/img/ensenanza/Infografia_EFECTOS_4.svg" target="_blank" rel="noopener">
+    <img src="/assets/img/ensenanza/Infografia_EFECTOS_4.svg" alt="¿Qué es el efecto hoja de arroz?" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; display: block;">
+  </a>
+</div>
+  
   </div>
 
 <div style="max-width: 350px; margin: 30px auto; border: 1px solid #eaeaea; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
@@ -83,7 +92,7 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
       Documento del Proyecto
     </h3>
     <p style="margin: 0 0 15px 0; font-size: 0.9em; color: #666;">
-      Consulta la publicación oficial en el Repositorio de la Universidad de Granada.
+      Understanding the petal effect: Wetting properties and surface structure of natural rose petals and rose petal-derived surfaces.
     </p>
     
     <a href="https://digibug.ugr.es/handle/10481/92141" target="_blank" rel="noopener" style="background-color: #d13a36; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background-color 0.2s;">
@@ -92,5 +101,4 @@ Bienvenido a nuestra sección educativa. Aquí explicamos de forma sencilla los 
   </div>
 
 </div>
-  
-<p>Si quieres profundizar en este tema, lee <a href="https://digibug.ugr.es/handle/10481/92141" target="_blank"><em>Understanding the petal effect: Wetting properties and surface structure of natural rose petals and rose petal-derived surfaces</em></a>.</p>
+
