@@ -114,8 +114,7 @@ Usando otra zona de la misma hoja o pétalo, repetir los pasos 2-4 al menos dos 
     Puedes inclinar el móvil casi en vertical y la gota sigue ahí, pegada. La superficie es *Parahidrofóbica* (Sticky). **¡Has encontrado exactamente lo que buscamos para StickyDropsMap!**
   
   <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-  <img src="/assets/img/ensenanza/erab479f0001.jpeg" alt="Ilustración de tricomas y adaptaciones" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 600px;">
-</div>
+  <img src="/assets/img/ensenanza/erab479f0001.jpeg" alt="Ilustración de tricomas y adaptaciones" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 600px;"></div>
 
 ## 📢 Sube tu descubrimiento
 ¿Has encontrado una planta "sticky"? Abre **iNaturalist**, sube la foto de la planta, añade la ubicación y, en los comentarios o notas de tu observación, **escribe el ángulo máximo de inclinación que has medido y el volumen de gota necesario para deslizar**. 
