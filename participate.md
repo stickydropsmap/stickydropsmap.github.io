@@ -27,7 +27,7 @@ Es gratuita y está disponible como:
 
 Busca el proyecto **"StickyDropsMap"** en iNaturalist o accede directamente a través del [enlace](https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica).
 
-Si no quieres abrirte ninguna cuenta en iNaturalist, también puedes usar un canal de telegram fiable. Escanea este código [QR](/assets/img/t_me-stickyDROPSmap_UGR.jpg).
+Si no quieres abrirte ninguna cuenta en iNaturalist, también puedes usar un canal de telegram fiable [aquí](t.me/stickyDROPSmap_UGR).
 
 ---
 
