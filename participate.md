@@ -25,11 +25,11 @@ Es gratuita y está disponible como:
 
 ### 2. Únete al proyecto
 
-Rellena el siguiente [formulario](https://forms.gle/DYWBEEigANxDyejW9). 
+Rellena el siguiente <a href="https://forms.gle/DYWBEEigANxDyejW9" target="_blank" rel="noopener noreferrer">formulario</a>. 
 
-Busca el proyecto **"StickyDropsMap"** en iNaturalist o accede directamente a través del [enlace](https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica).
+Busca el proyecto **"StickyDropsMap"** en iNaturalist o accede directamente a través del <a href="https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica" target="_blank" rel="noopener noreferrer">enlace</a>.
 
-Si no quieres abrirte ninguna cuenta en iNaturalist, también puedes usar un canal de telegram fiable a través del [enlace](https://t.me/stickyDROPSmap_UGR).
+Si no quieres abrirte ninguna cuenta en iNaturalist, también puedes usar un canal de telegram fiable a través del <a href="https://t.me/stickyDROPSmap_UGR" target="_blank" rel="noopener noreferrer">enlace</a>.
 
 ---
 
