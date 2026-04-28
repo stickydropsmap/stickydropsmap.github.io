@@ -29,7 +29,7 @@ Rellena el siguiente [formulario](https://forms.gle/DYWBEEigANxDyejW9).
 
 Busca el proyecto **"StickyDropsMap"** en iNaturalist o accede directamente a través del [enlace](https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica).
 
-Si no quieres abrirte ninguna cuenta en iNaturalist, también puedes usar un canal de telegram fiable a través del [enlace](t.me/stickyDROPSmap_UGR).
+Si no quieres abrirte ninguna cuenta en iNaturalist, también puedes usar un canal de telegram fiable a través del [enlace](https://t.me/stickyDROPSmap_UGR).
 
 ---
 
