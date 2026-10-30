@@ -9,11 +9,11 @@ Aquí tienes una selección de recursos, guías e instituciones vinculadas al es
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0uguQLo3480?si=uRormOU03DIOYNPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div class="list-group" style="margin-top: 30px;">
-   <a href="[https://www.ugr.es/~calidad.ciencias/jardines/especies.html](https://www.ugr.es/~calidad.ciencias/jardines/especies.html)" target="_blank" class="list-group-item">
+   <a href="https://www.ugr.es/~calidad.ciencias/jardines/especies.html" target="_blank" class="list-group-item">
     <h4 class="list-group-item-heading">🎓🌿 Biodiversidad en los jardines de la Facultad de Ciencias de la Universidad de Granada-1</h4>
     <p class="list-group-item-text">Inventario de especies leñosas en las zonas ajardinadas de la Facultad de Ciencias.</p>
   </a>
-   <a href="[https://www.ugr.es/~calidad.ciencias/jardines/mecenas.html](https://www.ugr.es/~calidad.ciencias/jardines/mecenas.html)" target="_blank" class="list-group-item">
+   <a href="https://www.ugr.es/~calidad.ciencias/jardines/mecenas.html" target="_blank" class="list-group-item">
     <h4 class="list-group-item-heading">🎓🌿 Biodiversidad en los jardines de la Facultad de Ciencias de la Universidad de Granada-2</h4>
     <p class="list-group-item-text">Inventario de especies en el edificio Mecenas y alrededores.</p>
   </a>
