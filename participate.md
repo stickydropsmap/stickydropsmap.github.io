@@ -1,383 +1,126 @@
 ---
-layout: home
-#title: StickyDropsMap
-#subtitle: Mapa de superficies vegetales con alta captación de agua atmosférica
-cover-img: /assets/img/hero.jpg
+layout: page
+title: ¿Cómo participar?
+subtitle: Únete al proyecto de ciencia ciudadana
+show-avatar: false
 ---
 
-Bienvenido al proyecto de ciencia ciudadana **StickyDropsMap** de la Universidad de Granada.
-Ayúdanos a cartografiar las plantas y superficies capaces de capturar agua atmosférica — como
-niebla y rocío — para entender mejor los recursos hídricos de nuestros ecosistemas.
-
-<div style="text-align: center; margin: 40px 0;">
-  <a href="/participate/" style="background-color: #2ea44f; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-size: 1.2em; font-weight: bold; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    🙋🏽‍♀️ ¿Cómo puedo participar?
-  </a>
-</div>
-
-<img src="/assets/img/portada.png" alt="Concepto de StickyDropsMap" style="display: block; margin-top: 15px; max-width: 100%;">
+¡Gracias por tu interés en **StickyDropsMap**! Con unos pocos pasos puedes contribuir datos
+valiosos a la investigación sobre captación de agua atmosférica.
 
 ---
 
-## Mapa de especies vegetales singulares
+## Pasos para participar
 
-<div style="margin: 3rem 0; width: 100%;">
-  <iframe src="https://www.google.com/maps/d/embed?mid=1Ctys8roNKIREFzWwKuwVfj9vsDHdW3A&ehbc=2E312F" width="100%" height="500" style="border:0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy"></iframe>
-</div>
+### 1. Crea una cuenta en iNaturalist
+
+[iNaturalist](https://www.inaturalist.org) es la plataforma que usamos para recopilar observaciones.
+Es gratuita y está disponible como:
+
+- 🌐 Aplicación web en [inaturalist.org](https://www.inaturalist.org)
+- 📱 App móvil para [Android](https://play.google.com/store/apps/details?id=org.inaturalist.android)
+  y [iOS](https://apps.apple.com/app/inaturalist/id421397028)
 
 ---
 
-## Monitorización Agroclimática de Niebla y Rocío (Red IFAPA)
+### 2. Únete al proyecto
 
-<style>
-  #ifapa-widget-container {
-    margin: 2rem 0;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    border: 1px solid #e1e4e8;
-  }
-  #ifapa-widget-container .panel-control {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    padding: 15px;
-    background: #f6f8fa;
-    border-radius: 8px;
-    align-items: flex-end;
-  }
-  #ifapa-widget-container .control-group {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-  #ifapa-widget-container label {
-    font-size: 0.85rem;
-    font-weight: bold;
-    color: #24292e;
-  }
-  #ifapa-widget-container select,
-  #ifapa-widget-container input {
-    padding: 6px 10px;
-    border-radius: 6px;
-    border: 1px solid #d1d5da;
-    font-size: 0.9rem;
-    background-color: white;
-  }
-  #ifapa-widget-container button {
-    background-color: #2ea44f;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 6px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    cursor: pointer;
-    height: 35px;
-    transition: background-color 0.2s;
-  }
-  #ifapa-widget-container button:hover {
-    background-color: #2c974b;
-  }
-  #ifapa-widget-container .chart-wrapper {
-    position: relative;
-    width: 100%;
-    min-height: 420px;
-  }
-</style>
+Rellena el siguiente <a href="https://forms.gle/DYWBEEigANxDyejW9" target="_blank" rel="noopener noreferrer">formulario</a>. 
 
-<!-- Carga de Chart.js -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+Busca el proyecto **"StickyDropsMap"** en iNaturalist o accede directamente a través del <a href="https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica" target="_blank" rel="noopener noreferrer">enlace</a>.
 
-<div id="ifapa-widget-container">
-  <div class="panel-control">
-    <div class="control-group">
-      <label for="selProvincia">Provincia:</label>
-      <select id="selProvincia">
-        <option value="18" selected>Granada</option>
-        <option value="29">Málaga</option>
-        <option value="4">Almería</option>
-        <option value="41">Sevilla</option>
-        <option value="14">Córdoba</option>
-      </select>
-    </div>
+Si no quieres abrirte ninguna cuenta en iNaturalist, también puedes usar un canal de telegram fiable a través del <a href="https://t.me/stickyDROPSmap_UGR" target="_blank" rel="noopener noreferrer">enlace</a>.
 
-    <div class="control-group">
-      <label for="selEstacion">Estación:</label>
-      <select id="selEstacion"><option value="">Cargando...</option></select>
-    </div>
+---
 
-    <div class="control-group">
-      <label for="fechaInicio">Fecha Inicio:</label>
-      <input type="date" id="fechaInicio">
-    </div>
+### 3. Encuentra una planta o superficie captadora
 
-    <div class="control-group">
-      <label for="fechaFin">Fecha Fin:</label>
-      <input type="date" id="fechaFin">
-    </div>
+Busca plantas, musgos, líquenes u otras superficies que acumulen gotas de agua visibles
+(niebla, rocío, lluvia). Algunos ejemplos:
 
-    <button id="btnConsultar">Consultar Datos</button>
-  </div>
+| Tipo de superficie | Ejemplos |
+|--------------------|----------|
+| Hojas que repelen el agua | Eucalipto azul|
+| Pétalos que retienen el agua | Rosa blanca|
+| Hojas que retienen el agua | Lirio |
 
-  <div id="stats" style="margin-bottom: 15px; font-size: 0.95rem; color: #444;"></div>
+Si no sabes por dónde empezar, visita los lugares indicados en nuestro [mapa](https://www.google.com/maps/d/embed?mid=1Ctys8roNKIREFzWwKuwVfj9vsDHdW3A&ehbc=2E312F) de Granada.
+
+---
+
+### 4. Registra tu observación
+
+Cuando encuentres una superficie vegetal captadora de agua, registra:
+
+1. **Foto** — Toma al menos una foto clara que muestre las gotas.
+2. **Ubicación** — Permite que la app utilice tu GPS, o marca el punto en el mapa.
+3. **Fecha y hora** — Se registran automáticamente.
+4. **Notas opcionales** — Puedes añadir datos como temperatura, humedad o condiciones meteorológicas.
+
+---
+
+### 5. Envía tu observación
+
+Una vez completados los datos, pulsa **Enviar**. Tu observación quedará disponible para el
+equipo de investigación, que la incluirá en el mapa del proyecto.
+
+---
+
+# 🔬 Práctica de Ciencia Ciudadana: El Laboratorio en tu Bolsillo
+
+Para que el proyecto **StickyDropsMap** sea un éxito, necesitamos encontrar plantas que retengan el agua significativamente (efecto pétalo). Pero, ¿cómo medimos esa fuerza de adhesión sin usar el costoso equipo de un laboratorio de la Universidad de Granada?
+
+¡Con tu móvil! Vamos a medir el **Ángulo de deslizamiento**.
+
+## 🎒 Materiales necesarios:
+* **Tu Smartphone** (será nuestro inclinómetro de precisión).
+* **App de medición:** Recomendamos **Phyphox** (usa la herramienta "Inclinación").
+* **Almohadilla de Nano-Gel** (Cinta antideslizante lavable, de las que se usan en el coche).
+* **Muestra vegetal:** Un trozo de hoja o pétalo **frescos**.
+* **Agua y cuentagotas StickyDropsMap**.
+* **1 bolsa tipo zip para alimentación (1L)**.
+
+---
+
+## 🛠️ Instrucciones Paso a Paso:
+
+**Paso 0: Recolección y manipulación de muestras vegetales frescas**
+Confirmar que no se trata de una especie protegida y extraer 2-3 muestras. Almacenarlas con cuidado en una bolsa hermética (zip) con un pañuelo kleenex humedecido o en un recipiente rígido si la hoja/flor es delicada o grande. Mantenerla siempre a la sombra. Ya en casa, guardar la bolsa cerrada en el cajón de las verduras del frigorífico. Antes de las 24h de la recolección, deben hacerse todas las medidas.
+
+**Paso 1: Preparación de la base**
+Abre la app de Inclinómetro en tu móvil, lista para medir. Bloquea la pantalla. Pega la almohadilla de nano-gel sobre la pantalla bloqueada, pero en la parte inferior. Coloca tu muestra de hoja plana sobre el gel y presiona suavemente. ¡El gel la mantendrá fija sin dañarla! ¡No toques la superficie de la hoja!
+
+**Paso 2: Depositado de la gota**
+Coloca el móvil sobre una mesa (totalmente horizontal, a 0º). Con el cuentagotas, deposita con cuidado una gota de agua sobre la muestra. Para aumentar el volumen, deposita varias gotas. Anota siempre el número de gotas utilizadas en cada medida.
+
+**Paso 3: Inclinación**
+Empieza a levantar lentamente el móvil por un extremo, inclinándolo poco a poco. Observa la gota de agua con atención y mira los grados en la pantalla.
+
+**Paso 4: Deslizamiento de la gota**
+Detén la inclinación justo en el instante en que la gota **empiece a deslizar**. Si el ángulo de inclinación supera los 90º, repite los pasos 2 y 3 pero aumentando el volumen de gota hasta observar el deslizamiento. Recuerda anotar el número de gotas que has utilizado para formar la gota posada sobre la muestra. Anota el ángulo de inclinación.
+
+**Paso 5: Repetición**
+Usando otra zona de la misma hoja o pétalo, repetir los pasos 2-4 al menos dos veces.
+
+---
+
+## 📊 ¿Cómo interpretar tus resultados?
+
+* 💧 **Ángulo bajo (Menos de 20º): ¡Efecto Loto!** El agua resbala casi inmediatamente. La superficie es *Superhidrofóbica* y se autolimpia. Aunque es fascinante, no retiene el agua.
+* 🧲 **Ángulo alto (Entre 60º y 90º o más): ¡Efecto Pétalo!**
+    Puedes inclinar el móvil casi en vertical y la gota sigue ahí, pegada. La superficie es *Parahidrofóbica* (Sticky). **¡Has encontrado exactamente lo que buscamos para StickyDropsMap!**
+
   
-  <div class="chart-wrapper">
-    <canvas id="meteorologiaChart"></canvas>
+  <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <img src="/assets/img/ensenanza/erab479f0001.jpeg" alt="Ilustración de tricomas y adaptaciones" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 600px;">
   </div>
-</div>
 
-<script>
-(function() {
-  const BASE_URL = "https://www.juntadeandalucia.es/agriculturaypesca/ifapa/riaws";
-  let miChart = null;
 
-  function formatDateLocal(date) {
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    return `${year}-${month}-${day}`;
-  }
+## 📢 Sube tu descubrimiento
+¿Has encontrado una planta "sticky"? Abre **iNaturalist**, sube la foto de la planta, añade la ubicación y, en los comentarios o notas de tu observación, **escribe el ángulo máximo de inclinación que has medido y el volumen de gota necesario para deslizar**. 
 
-  function calcularPuntoRocio(temp, humedad) {
-    const a = 17.27, b = 237.7;
-    const h = Math.max(humedad, 0.1);
-    const alpha = ((a * temp) / (b + temp)) + Math.log(h / 100.0);
-    return (b * alpha) / (a - alpha);
-  }
+¡Tus datos ayudarán a diseñar los materiales captadores de agua del futuro!
 
-  async function cargarEstaciones(codProvincia) {
-    const selEstacion = document.getElementById("selEstacion");
-    selEstacion.innerHTML = "<option>Cargando estaciones...</option>";
-    
-    try {
-      const res = await fetch(`${BASE_URL}/estaciones/${codProvincia}`);
-      const estaciones = await res.json();
-      const activas = estaciones.filter(e => e.activa !== false);
-      
-      selEstacion.innerHTML = "";
-      activas.forEach(e => {
-        const opt = document.createElement("option");
-        opt.value = e.codigoEstacion;
-        opt.textContent = `${e.nombre} (${e.codigoEstacion})`;
-        selEstacion.appendChild(opt);
-      });
-    } catch (err) {
-      selEstacion.innerHTML = "<option>Error al cargar</option>";
-    }
-  }
+## Preguntas frecuentes
 
-  async function ejecutarConsulta() {
-    const codProvincia = document.getElementById("selProvincia").value;
-    const codEstacion = document.getElementById("selEstacion").value;
-    const fhInicio = document.getElementById("fechaInicio").value;
-    const fhFin = document.getElementById("fechaFin").value;
-    const statsDiv = document.getElementById("stats");
-
-    if (!codEstacion || !fhInicio || !fhFin) {
-      alert("Por favor completa todos los campos.");
-      return;
-    }
-
-    statsDiv.innerHTML = "⏳ Consultando servicio agroclimático de IFAPA...";
-
-    try {
-      const url = `${BASE_URL}/datosdiarios/forceEt0/${codProvincia}/${codEstacion}/${fhInicio}/${fhFin}`;
-      const res = await fetch(url);
-      const datos = await res.json();
-
-      if (!datos || datos.length === 0) {
-        statsDiv.innerHTML = "<b style='color:#d9534f;'>No hay registros disponibles para el período y estación seleccionados.</b>";
-        return;
-      }
-
-      let nNiebla = 0, nRocio = 0;
-      const procesados = datos.map(d => {
-        const fecha = d.fecha.split('T')[0];
-        const pRocio = calcularPuntoRocio(d.tempMedia, d.humedadMedia);
-        const depRocio = d.tempMin - pRocio;
-
-        const niebla = (d.humedadMax >= 95.0) && (d.velViento <= 2.0) && (depRocio <= 1.5);
-        const rocio = (d.humedadMax >= 98.0) && (d.velViento <= 1.5) && (depRocio <= 0.5);
-
-        let ev = "Sin evento";
-        if (niebla && rocio) { ev = "Niebla + Rocío"; nNiebla++; nRocio++; }
-        else if (niebla) { ev = "Niebla"; nNiebla++; }
-        else if (rocio) { ev = "Rocío"; nRocio++; }
-
-        return { fecha, humedadMax: d.humedadMax, radiacion: d.radiacion, evento: ev };
-      });
-
-      const totalEv = procesados.filter(d => d.evento !== "Sin evento").length;
-      statsDiv.innerHTML = `
-        <strong>Días analizados:</strong> ${procesados.length} | 
-        <strong>Eventos detectados:</strong> ${totalEv} (Niebla: <strong>${nNiebla}</strong> días | Rocío: <strong>${nRocio}</strong> días)
-      `;
-
-      renderizarGrafica(procesados);
-    } catch (e) {
-      statsDiv.innerHTML = `<b style='color:#d9534f;'>Error en la consulta: ${e.message}</b>`;
-    }
-  }
-
-  function renderizarGrafica(datos) {
-    const ctx = document.getElementById('meteorologiaChart').getContext('2d');
-    
-    if (miChart) miChart.destroy();
-
-    miChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: datos.map(d => d.fecha),
-        datasets: [
-          { label: 'Humedad Máx (%)', data: datos.map(d => d.humedadMax), borderColor: '#36a2eb', borderWidth: 2, pointRadius: 0 },
-          { label: 'Radiación (MJ/m²)', data: datos.map(d => d.radiacion), borderColor: '#ff9f40', borderWidth: 2, pointRadius: 0 },
-          { label: 'Solo Niebla', data: datos.map(d => d.evento === "Niebla" ? d.humedadMax : null), backgroundColor: '#ff6384', showLine: false, pointRadius: 6 },
-          { label: 'Solo Rocío', data: datos.map(d => d.evento === "Rocío" ? d.humedadMax : null), backgroundColor: '#4bc0c0', showLine: false, pointRadius: 7, pointStyle: 'triangle' },
-          { label: 'Niebla + Rocío', data: datos.map(d => d.evento === "Niebla + Rocío" ? d.humedadMax : null), backgroundColor: '#9966ff', showLine: false, pointRadius: 9, pointStyle: 'rectRot' }
-        ]
-      },
-      options: { 
-        responsive: true, 
-        maintainAspectRatio: false,
-        scales: { 
-          x: { ticks: { maxRotation: 45 } }, 
-          y: { beginAtZero: true } 
-        } 
-      }
-    });
-  }
-
-  document.addEventListener("DOMContentLoaded", async () => {
-    const hoy = new Date();
-    
-    // Configuración temporal: Fecha Fin = Ayer | Fecha Inicio = 356 días antes de Ayer
-    const fechaFinDt = new Date(hoy);
-    fechaFinDt.setDate(hoy.getDate() - 1);
-
-    const fechaInicioDt = new Date(fechaFinDt);
-    fechaInicioDt.setDate(fechaFinDt.getDate() - 356);
-
-    document.getElementById("fechaFin").value = formatDateLocal(fechaFinDt);
-    document.getElementById("fechaInicio").value = formatDateLocal(fechaInicioDt);
-
-    const selProvincia = document.getElementById("selProvincia");
-    await cargarEstaciones(selProvincia.value);
-    
-    selProvincia.addEventListener("change", (e) => cargarEstaciones(e.target.value));
-    document.getElementById("btnConsultar").addEventListener("click", ejecutarConsulta);
-    
-    ejecutarConsulta();
-  });
-})();
-</script>
-
----
-
-## Últimas observaciones de iNaturalist
-
-<div id="inaturalist-section">
-  <div id="obs-loading">⏳ Cargando observaciones…</div>
-  <div id="obs-error" style="display: none;">
-    No se pudieron cargar las observaciones. Por favor,
-    <a href="https://www.inaturalist.org/projects/mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica" target="_blank" rel="noopener">
-      visita el proyecto en iNaturalist
-    </a>.
-  </div>
-  <div id="obs-grid"></div>
-</div>
-
-<script>
-(function () {
-  var PROJECT_ID = "mapa-de-superficies-vegetales-con-alta-captacion-de-agua-atmosferica";
-  var MAX_OBS    = 5;
-
-  var apiUrl =
-    "https://api.inaturalist.org/v1/observations" +
-    "?project_id=" + encodeURIComponent(PROJECT_ID) +
-    "&per_page=" + MAX_OBS +
-    "&order=desc&order_by=created_at";
-
-  var grid    = document.getElementById("obs-grid");
-  var loading = document.getElementById("obs-loading");
-  var errBox  = document.getElementById("obs-error");
-
-  function formatDate(dateStr) {
-    if (!dateStr) return "";
-    var d = new Date(dateStr);
-    return d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
-  }
-
-  function renderObservation(obs) {
-    var card = document.createElement("a");
-    card.className = "obs-card";
-    card.href      = "https://www.inaturalist.org/observations/" + obs.id;
-    card.target    = "_blank";
-    card.rel       = "noopener noreferrer";
-
-    var photoEl;
-    var photoUrl =
-      obs.photos && obs.photos.length > 0
-        ? obs.photos[0].url.replace("square", "medium")
-        : null;
-
-    if (photoUrl) {
-      photoEl = document.createElement("img");
-      photoEl.src   = photoUrl;
-      photoEl.alt   = obs.species_guess || "Observación";
-      photoEl.loading = "lazy";
-    } else {
-      photoEl = document.createElement("div");
-      photoEl.className = "obs-card-placeholder";
-      photoEl.textContent = "🌿";
-    }
-
-    var body     = document.createElement("div");
-    body.className = "obs-card-body";
-
-    var species  = document.createElement("p");
-    species.className = "obs-species";
-    species.textContent =
-      (obs.taxon && obs.taxon.preferred_common_name) ||
-      obs.species_guess ||
-      "Especie desconocida";
-
-    var date = document.createElement("p");
-    date.className = "obs-date";
-    date.textContent = formatDate(obs.observed_on);
-
-    body.appendChild(species);
-    body.appendChild(date);
-    card.appendChild(photoEl);
-    card.appendChild(body);
-    return card;
-  }
-
-  fetch(apiUrl)
-    .then(function (response) {
-      if (!response.ok) {
-        throw new Error("HTTP " + response.status);
-      }
-      return response.json();
-    })
-    .then(function (data) {
-      loading.style.display = "none";
-      errBox.style.display = "none";
-      
-      var results = data.results || [];
-      if (results.length === 0) {
-        errBox.style.display = "block";
-        return;
-      }
-      results.forEach(function (obs) {
-        grid.appendChild(renderObservation(obs));
-      });
-    })
-    .catch(function () {
-      loading.style.display = "none";
-      errBox.style.display  = "block";
-    });
-})();
-</script>
+Consulta la sección [Acerca del proyecto](/about/).
