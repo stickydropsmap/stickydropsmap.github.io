@@ -276,6 +276,205 @@ niebla y rocío — para entender mejor los recursos hídricos de nuestros ecosi
 
 ---
 
+## Visibilidad Real en Pista y Detección de Niebla (Visibilímetros AEMET)
+
+<style>
+  #aemet-real-widget { font-family: Arial, sans-serif; margin: 2rem 0; padding: 20px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #e1e4e8; }
+  #aemet-real-widget .panel { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; padding: 15px; background: #f6f8fa; border-radius: 8px; align-items: flex-end; }
+  #aemet-real-widget .grupo { display: flex; flex-direction: column; gap: 4px; }
+  #aemet-real-widget label { font-size: 0.85rem; font-weight: bold; color: #24292e; }
+  #aemet-real-widget select { padding: 6px 10px; border-radius: 6px; border: 1px solid #d1d5da; font-size: 0.9rem; background: #fff; }
+  #aemet-real-widget button { background-color: #2ea44f; color: white; border: none; padding: 8px 15px; border-radius: 6px; font-size: 0.9rem; font-weight: bold; cursor: pointer; height: 35px; transition: background-color 0.2s; }
+  #aemet-real-widget button:hover { background-color: #2c974b; }
+  #aemet-real-widget .chart-box { position: relative; width: 100%; height: 420px; }
+  #aemet-real-widget table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.9rem; }
+  #aemet-real-widget th, #aemet-real-widget td { padding: 9px 12px; border-bottom: 1px solid #e1e4e8; text-align: left; }
+  #aemet-real-widget th { background-color: #f6f8fa; color: #24292e; }
+  #aemet-real-widget tr.fila-estacion { cursor: pointer; }
+  #aemet-real-widget tr.fila-estacion:hover { background-color: #f1f8ff; }
+</style>
+<div id="aemet-real-widget">
+  <div class="panel">
+    <div class="grupo">
+      <label for="selAeropuertoReal">Aeropuerto (Visibilímetro AEMET):</label>
+      <select id="selAeropuertoReal"></select>
+    </div>
+    <div class="grupo">
+      <label for="selModoVista">Resolución temporal:</label>
+      <select id="selModoVista">
+        <option value="horario" selected>Horaria (Lectura directa sensor)</option>
+        <option value="diario">Diaria (Visibilidad mínima por día)</option>
+      </select>
+    </div>
+    <button id="btnRefrescarReal">Actualizar vista</button>
+  </div>
+  <div id="statsReal" style="margin-bottom: 14px; font-size: 0.95rem; color: #333;">⏳ Cargando lecturas reales de visibilímetros...</div>
+  <div class="chart-box">
+    <canvas id="chartVisibilidadReal"></canvas>
+  </div>
+  <div id="tablaComparativaReal" style="overflow-x: auto;"></div>
+</div>
+<script>
+(function() {
+  const DATA_URL = "/assets/data/aemet_visibilidad.json";
+  let datosGlobales = null;
+  let chartInstancia = null;
+  async function iniciarWidgetAemetReal() {
+    const statsDiv = document.getElementById("statsReal");
+    try {
+      const res = await fetch(`${DATA_URL}?t=${Math.floor(Date.now() / 600000)}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      datosGlobales = await res.json();
+      const sel = document.getElementById("selAeropuertoReal");
+      sel.innerHTML = "";
+      Object.entries(datosGlobales.estaciones).forEach(([idema, info]) => {
+        const opt = document.createElement("option");
+        opt.value = idema;
+        opt.textContent = `${info.nombre} [${idema}]`;
+        sel.appendChild(opt);
+      });
+      renderizarTablaComparativa();
+      actualizarGrafica();
+    } catch (err) {
+      statsDiv.innerHTML = `<b style="color:#d9534f;">No se pudo cargar el archivo de datos (${err.message}).</b>`;
+    }
+  }
+  function agregarPorDia(registros) {
+    const porDia = {};
+    registros.forEach(r => {
+      const dia = r.fint.split("T")[0];
+      if (!porDia[dia]) {
+        porDia[dia] = { dia, minVis: r.vis_m, horasNiebla: 0 };
+      } else if (r.vis_m < porDia[dia].minVis) {
+        porDia[dia].minVis = r.vis_m;
+      }
+      if (r.vis_m < 1000) porDia[dia].horasNiebla++;
+    });
+    return Object.values(porDia).sort((a, b) => a.dia.localeCompare(b.dia));
+  }
+  function actualizarGrafica() {
+    if (!datosGlobales) return;
+    const idema = document.getElementById("selAeropuertoReal").value;
+    const modo = document.getElementById("selModoVista").value;
+    const est = datosGlobales.estaciones[idema];
+    const statsDiv = document.getElementById("statsReal");
+    if (!est || est.registros.length === 0) {
+      statsDiv.innerHTML = `<b>No hay lecturas de visibilímetro registradas aún para ${idema}.</b>`;
+      return;
+    }
+    let etiquetas = [];
+    let valoresVis = [];
+    let extraTooltip = [];
+    if (modo === "horario") {
+      etiquetas = est.registros.map(r => r.fint.replace("T", " "));
+      valoresVis = est.registros.map(r => r.vis_m);
+      extraTooltip = est.registros.map(r => `Temp: ${r.ta ?? "-"} °C | HR: ${r.hr ?? "-"} % | Viento: ${r.vv ?? "-"} m/s`);
+    } else {
+      const diarios = agregarPorDia(est.registros);
+      etiquetas = diarios.map(d => d.dia);
+      valoresVis = diarios.map(d => d.minVis);
+      extraTooltip = diarios.map(d => `Horas con niebla (<1000 m): ${d.horasNiebla} h`);
+    }
+    const horasNieblaTotal = est.registros.filter(r => r.vis_m < 1000).length;
+    const horasDensaTotal = est.registros.filter(r => r.vis_m < 500).length;
+    const visMinima = Math.min(...valoresVis);
+    statsDiv.innerHTML = `
+      <strong>Estación:</strong> ${est.nombre} (IDEMA ${idema}) | 
+      <strong>Última actualización:</strong> ${datosGlobales.ultima_actualizacion.replace("T", " ").replace("Z", " UTC")}<br>
+      <strong>Registros horarios acumulados:</strong> ${est.registros.length} h | 
+      <strong>Visibilidad mínima medida:</strong> ${visMinima} m | 
+      <strong>Niebla (&lt;1000 m):</strong> ${horasNieblaTotal} h | 
+      <strong>Niebla densa (&lt;500 m):</strong> ${horasDensaTotal} h
+    `;
+    const ctx = document.getElementById("chartVisibilidadReal").getContext("2d");
+    if (chartInstancia) chartInstancia.destroy();
+    const puntosNiebla = valoresVis.map(v => (v < 1000 ? v : null));
+    const umbral1000 = new Array(etiquetas.length).fill(1000);
+    const umbral500 = new Array(etiquetas.length).fill(500);
+    chartInstancia = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: etiquetas,
+        datasets: [
+          { label: "Visibilidad láser medida (m)", data: valoresVis, borderColor: "#1b4965", backgroundColor: "rgba(27, 73, 101, 0.12)", borderWidth: 2, fill: true, pointRadius: modo === "horario" ? 2 : 3 },
+          { label: "Umbral Niebla (1000 m)", data: umbral1000, borderColor: "#ff9f40", borderWidth: 1.5, borderDash: [6, 6], pointRadius: 0 },
+          { label: "Niebla Densa (500 m)", data: umbral500, borderColor: "#e63946", borderWidth: 1.5, borderDash: [4, 4], pointRadius: 0 },
+          { label: "Evento de Niebla Real (< 1000 m)", data: puntosNiebla, backgroundColor: "#e63946", borderColor: "#e63946", showLine: false, pointRadius: 6 }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: "index", intersect: false },
+        plugins: {
+          title: { display: true, text: `Visibilímetro Real AEMET - ${est.nombre}`, font: { size: 14 } },
+          tooltip: {
+            callbacks: {
+              afterBody: function(context) {
+                const idx = context[0].dataIndex;
+                return extraTooltip[idx] || "";
+              }
+            }
+          }
+        },
+        scales: {
+          x: { ticks: { maxRotation: 45 } },
+          y: { beginAtZero: true, title: { display: true, text: "Visibilidad Horizontal en Pista (metros)" } }
+        }
+      }
+    });
+  }
+  function renderizarTablaComparativa() {
+    const contenedor = document.getElementById("tablaComparativaReal");
+    const filas = Object.entries(datosGlobales.estaciones).map(([idema, info]) => {
+      const regs = info.registros || [];
+      const hNiebla = regs.filter(r => r.vis_m < 1000).length;
+      const hDensa = regs.filter(r => r.vis_m < 500).length;
+      const minV = regs.length > 0 ? Math.min(...regs.map(r => r.vis_m)) : null;
+      return { idema, nombre: info.nombre, totalH: regs.length, hNiebla, hDensa, minV };
+    });
+    filas.sort((a, b) => b.hNiebla - a.hNiebla || b.hDensa - a.hDensa);
+    let html = `
+      <h4 style="margin-top: 20px; margin-bottom: 6px;">Comparativa de Visibilímetros Reales (Sur de España)</h4>
+      <p style="font-size: 0.85rem; color: #586069; margin-top: 0;">Haz clic en una fila para ver su gráfica.</p>
+      <table>
+        <thead>
+          <tr><th>Aeropuerto</th><th>IDEMA</th><th>Visibilidad Mínima</th><th>Horas Niebla (&lt;1000 m)</th><th>Horas Densa (&lt;500 m)</th><th>Muestra acumulada</th></tr>
+        </thead>
+        <tbody>
+    `;
+    filas.forEach(f => {
+      html += `
+        <tr class="fila-estacion" data-idema="${f.idema}">
+          <td><strong>${f.nombre}</strong></td>
+          <td><code>${f.idema}</code></td>
+          <td>${f.minV !== null ? f.minV + " m" : "Sin datos"}</td>
+          <td><strong>${f.hNiebla} h</strong></td>
+          <td>${f.hDensa} h</td>
+          <td>${f.totalH} h</td>
+        </tr>
+      `;
+    });
+    html += "</tbody></table>";
+    contenedor.innerHTML = html;
+    contenedor.querySelectorAll("tr.fila-estacion").forEach(tr => {
+      tr.addEventListener("click", () => {
+        document.getElementById("selAeropuertoReal").value = tr.getAttribute("data-idema");
+        actualizarGrafica();
+      });
+    });
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("selAeropuertoReal").addEventListener("change", actualizarGrafica);
+    document.getElementById("selModoVista").addEventListener("change", actualizarGrafica);
+    document.getElementById("btnRefrescarReal").addEventListener("click", actualizarGrafica);
+    iniciarWidgetAemetReal();
+  });
+})();
+</script>
+
+---
+
 ## Últimas observaciones de iNaturalist
 
 <div id="inaturalist-section">
