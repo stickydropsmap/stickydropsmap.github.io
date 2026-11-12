@@ -7,15 +7,25 @@ API_KEY = os.environ["AEMET_API_KEY"]
 BASE_URL = "https://opendata.aemet.es/opendata/api"
 OUTPUT_FILE = "assets/data/aemet_visibilidad.json"
 
-AEROPUERTOS = {
+AEROPUERTOS_BASE = {
     "5530E": "Granada Aeropuerto (GRX)",
     "6155A": "Málaga Aeropuerto (AGP)",
     "6325O": "Almería Aeropuerto (LEI)",
-    "5783":  "Sevilla Aeropuerto (SVQ)",
-    "5402":  "Córdoba Aeropuerto (ODB)",
-    "5960":  "Jerez Aeropuerto (XRY)",
-    "5910":  "Base Naval de Rota",
+    "5783": "Sevilla Aeropuerto (SVQ)",
+    "5402": "Córdoba Aeropuerto (ODB)",
+    "5960": "Jerez Aeropuerto (XRY)",
+    "5910": "Base Naval de Rota",
 }
+
+
+def es_sur_espana(obs):
+    """Comprueba si la estación está en Andalucía / sur peninsular."""
+    try:
+        lat = float(obs.get("lat"))
+        lon = float(obs.get("lon"))
+        return 35.8 <= lat <= 38.8 and -7.6 <= lon <= -1.6
+    except (TypeError, ValueError):
+        return False
 
 
 def descargar_observaciones_aemet():
@@ -40,7 +50,6 @@ def descargar_observaciones_aemet():
 def main():
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
-    # Cargar histórico previo si existe
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             historico = json.load(f)
@@ -48,35 +57,55 @@ def main():
         historico = {"ultima_actualizacion": "", "estaciones": {}}
 
     observaciones = descargar_observaciones_aemet()
-    limite_antiguedad = (datetime.now(timezone.utc) - timedelta(days=365)).strftime("%Y-%m-%d")
+    limite_antiguedad = (datetime.now(timezone.utc) - timedelta(days=365)).strftime(
+        "%Y-%m-%d"
+    )
 
-    for idema, nombre in AEROPUERTOS.items():
+    # Catálogo dinámico: aeropuertos base + cualquier estación del sur que reporte 'vis'
+    catalogo_estaciones = dict(AEROPUERTOS_BASE)
+    for obs in observaciones:
+        idema = obs.get("idema")
+        if idema and obs.get("vis") is not None and es_sur_espana(obs):
+            if idema not in catalogo_estaciones:
+                nombre_ubi = str(obs.get("ubi", idema)).strip().title()
+                catalogo_estaciones[idema] = f"{nombre_ubi} (AEMET)"
+
+    # Agrupar observaciones nuevas por IDEMA
+    obs_por_estacion = {}
+    for obs in observaciones:
+        idema = obs.get("idema")
+        if idema in catalogo_estaciones and obs.get("vis") is not None:
+            obs_por_estacion.setdefault(idema, []).append(obs)
+
+    for idema, nombre in catalogo_estaciones.items():
         est_data = historico["estaciones"].setdefault(
             idema, {"nombre": nombre, "registros": []}
         )
         est_data["nombre"] = nombre
 
-        # Indexar registros existentes por marca temporal YYYY-MM-DDTHH:MM
         mapa_registros = {
             reg["fint"]: reg
             for reg in est_data["registros"]
             if reg["fint"][:10] >= limite_antiguedad
         }
 
-        # Añadir nuevas lecturas del visibilímetro
-        for obs in observaciones:
-            if obs.get("idema") == idema and obs.get("vis") is not None:
-                fint = obs["fint"][:16]  # Ej: "2026-11-12T16:00"
-                mapa_registros[fint] = {
-                    "fint": fint,
-                    "vis_m": round(float(obs["vis"]) * 1000),
-                    "ta": obs.get("ta"),
-                    "hr": obs.get("hr"),
-                    "vv": obs.get("vv"),
-                }
+        nuevas = obs_por_estacion.get(idema, [])
+        for obs in nuevas:
+            fint = obs["fint"][:16]
+            mapa_registros[fint] = {
+                "fint": fint,
+                "vis_m": round(float(obs["vis"]) * 1000),
+                "ta": obs.get("ta"),
+                "hr": obs.get("hr"),
+                "vv": obs.get("vv"),
+            }
 
         est_data["registros"] = sorted(
             mapa_registros.values(), key=lambda x: x["fint"]
+        )
+        print(
+            f"[{idema}] {nombre}: {len(nuevas)} lecturas 'vis' nuevas | "
+            f"{len(est_data['registros'])} acumuladas"
         )
 
     historico["ultima_actualizacion"] = datetime.now(timezone.utc).strftime(
@@ -85,8 +114,6 @@ def main():
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(historico, f, ensure_ascii=False, indent=2)
-
-    print(f"Actualización completada en {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
