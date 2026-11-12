@@ -1,0 +1,118 @@
+{
+  "ultima_actualizacion": "2026-11-12T16:25:55Z",
+  "estaciones": {
+    "5530E": {
+      "nombre": "Granada Aeropuerto (GRX)",
+      "registros": [
+        {
+          "fint": "2026-11-12T04:00",
+          "vis_m": 9900,
+          "ta": 14.1,
+          "hr": 90.0,
+          "vv": 2.9
+        },
+        {
+          "fint": "2026-11-12T05:00",
+          "vis_m": 18100,
+          "ta": 13.6,
+          "hr": 93.0,
+          "vv": 4.1
+        },
+        {
+          "fint": "2026-11-12T06:00",
+          "vis_m": 30000,
+          "ta": 13.7,
+          "hr": 87.0,
+          "vv": 6.6
+        },
+        {
+          "fint": "2026-11-12T07:00",
+          "vis_m": 30000,
+          "ta": 13.8,
+          "hr": 84.0,
+          "vv": 4.2
+        },
+        {
+          "fint": "2026-11-12T08:00",
+          "vis_m": 27800,
+          "ta": 14.1,
+          "hr": 86.0,
+          "vv": 2.8
+        },
+        {
+          "fint": "2026-11-12T09:00",
+          "vis_m": 21600,
+          "ta": 14.1,
+          "hr": 87.0,
+          "vv": 2.9
+        },
+        {
+          "fint": "2026-11-12T10:00",
+          "vis_m": 30000,
+          "ta": 15.4,
+          "hr": 75.0,
+          "vv": 3.8
+        },
+        {
+          "fint": "2026-11-12T11:00",
+          "vis_m": 29500,
+          "ta": 15.4,
+          "hr": 76.0,
+          "vv": 4.5
+        },
+        {
+          "fint": "2026-11-12T12:00",
+          "vis_m": 28600,
+          "ta": 16.8,
+          "hr": 76.0,
+          "vv": 5.2
+        },
+        {
+          "fint": "2026-11-12T13:00",
+          "vis_m": 27800,
+          "ta": 17.6,
+          "hr": 62.0,
+          "vv": 4.6
+        },
+        {
+          "fint": "2026-11-12T14:00",
+          "vis_m": 29600,
+          "ta": 17.6,
+          "hr": 66.0,
+          "vv": 2.8
+        },
+        {
+          "fint": "2026-11-12T15:00",
+          "vis_m": 30000,
+          "ta": 18.2,
+          "hr": 68.0,
+          "vv": 5.8
+        }
+      ]
+    },
+    "6155A": {
+      "nombre": "Málaga Aeropuerto (AGP)",
+      "registros": []
+    },
+    "6325O": {
+      "nombre": "Almería Aeropuerto (LEI)",
+      "registros": []
+    },
+    "5783": {
+      "nombre": "Sevilla Aeropuerto (SVQ)",
+      "registros": []
+    },
+    "5402": {
+      "nombre": "Córdoba Aeropuerto (ODB)",
+      "registros": []
+    },
+    "5960": {
+      "nombre": "Jerez Aeropuerto (XRY)",
+      "registros": []
+    },
+    "5910": {
+      "nombre": "Base Naval de Rota",
+      "registros": []
+    }
+  }
+}
