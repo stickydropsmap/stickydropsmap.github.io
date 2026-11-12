@@ -1,0 +1,37 @@
+name: Actualizar Visibilímetros AEMET
+
+on:
+  schedule:
+    # Se ejecuta cada 3 horas para no perder ninguna lectura de la ventana de 24h
+    - cron: '15 */3 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-datos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Consultar visibilímetros AEMET
+        env:
+          AEMET_API_KEY: ${{ secrets.AEMET_API_KEY }}
+        run: python scripts/actualizar_visibilidad_aemet.py
+
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/aemet_visibilidad.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Actualizar lecturas visibilímetros AEMET" && git push)
